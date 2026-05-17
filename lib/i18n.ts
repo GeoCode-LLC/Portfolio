@@ -39,8 +39,7 @@ export const dict: Record<Lang, DictShape> = {
       title: "Recent projects",
       view: "View case",
       items: [
-        { t: "Cafeterio", c: "Catering · Mobile app", tag: "2025" },
-        { t: "Cafeter.io", c: "Catering · Web platform", tag: "2025" },
+        { t: "Cafeterio", c: "Catering · Full product", tag: "2025" },
         { t: "Bisly", c: "Smart buildings · Web platform", tag: "2025" },
         { t: "CreditService +", c: "Microfinance · Web platform", tag: "2024" },
       ],
@@ -94,8 +93,7 @@ export const dict: Record<Lang, DictShape> = {
       title: "ბოლო პროექტები",
       view: "ნახე ქეისი",
       items: [
-        { t: "Cafeterio", c: "კეთერინგი · მობილური აპი", tag: "2025" },
-        { t: "Cafeter.io", c: "კეთერინგი · ვებ პლატფორმა", tag: "2025" },
+        { t: "Cafeterio", c: "კეთერინგი · სრული პროდუქტი", tag: "2025" },
         { t: "Bisly", c: "ჭკვიანი შენობები · ვებ პლატფორმა", tag: "2025" },
         { t: "კრედიტსერვისი +", c: "მიკროსაფინანსო · ვებ პლატფორმა", tag: "2024" },
       ],

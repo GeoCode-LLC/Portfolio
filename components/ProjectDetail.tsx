@@ -6,10 +6,15 @@ import { useLang } from "./LangProvider";
 import { Reveal } from "./Reveal";
 import { PhoneFrame } from "./PhoneFrame";
 
+// Phone-shaped SVGs live under /cafeterio/, /copolo/. Everything else is treated as a browser screen.
+const isPhoneScreen = (src: string) => /\/(cafeterio|copolo)\//.test(src);
+
 export function ProjectDetail({ project }: { project: Project }) {
   const { lang, t } = useLang();
   const meta = project[lang];
   const others = projects.filter((p) => p.slug !== project.slug).slice(0, 2);
+  const phoneItems = project.gallery.filter(isPhoneScreen);
+  const webItems = project.gallery.filter((s) => !isPhoneScreen(s));
 
   return (
     <article className="pt-36 pb-32">
@@ -123,20 +128,45 @@ export function ProjectDetail({ project }: { project: Project }) {
 
         {project.kind === "mobile" ? (
           <div
-            className="mt-24 rounded-2xl border border-white/10 p-8 md:p-16"
+            className="mt-24 rounded-2xl border border-white/10 p-8 md:p-16 space-y-12 md:space-y-16"
             style={
               project.accent
                 ? { background: `radial-gradient(circle at 50% 30%, ${project.accent}22, transparent 70%), #0f1010` }
                 : undefined
             }
           >
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
-              {project.gallery.map((src, i) => (
-                <Reveal key={src} delay={i * 0.08}>
-                  <PhoneFrame src={src} alt={`${meta.title} ${i + 1}`} />
-                </Reveal>
-              ))}
-            </div>
+            {phoneItems.length > 0 && (
+              <div>
+                {webItems.length > 0 && (
+                  <div className="text-xs uppercase tracking-[0.3em] text-white/50 mb-6 md:mb-8">— Mobile app</div>
+                )}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
+                  {phoneItems.map((src, i) => (
+                    <Reveal key={src} delay={i * 0.08}>
+                      <PhoneFrame src={src} alt={`${meta.title} ${i + 1}`} />
+                    </Reveal>
+                  ))}
+                </div>
+              </div>
+            )}
+            {webItems.length > 0 && (
+              <div>
+                <div className="text-xs uppercase tracking-[0.3em] text-white/50 mb-6 md:mb-8">— Web admin & site</div>
+                <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+                  {webItems.map((src, i) => (
+                    <Reveal key={src} delay={i * 0.08}>
+                      <motion.div
+                        whileHover={{ y: -4 }}
+                        transition={{ duration: 0.4 }}
+                        className="rounded-xl overflow-hidden shadow-[0_30px_60px_-20px_rgba(0,0,0,0.6)] border border-white/15 bg-white"
+                      >
+                        <img src={src} alt={`${meta.title} ${i + 1}`} className="w-full block" />
+                      </motion.div>
+                    </Reveal>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         ) : project.framed ? (
           <div
