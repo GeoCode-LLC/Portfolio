@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="g" cx="0.5" cy="0.4" r="0.85">
+      <stop offset="0" stop-color="#1c2538"/>
+      <stop offset="0.55" stop-color="#0a1220"/>
+      <stop offset="1" stop-color="#050810"/>
+    </radialGradient>
+    <radialGradient id="warm" cx="0.5" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#facc15" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topfade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1200" fill="url(#g)"/>
+  <rect width="1600" height="1200" fill="url(#warm)"/>
+
+  <!-- Subtle ledger lines (financial motif) -->
+  <g opacity="0.05" stroke="#fde047" stroke-width="1" fill="none">
+    <path d="M0 180 H1600 M0 340 H1600 M0 500 H1600 M0 660 H1600 M0 820 H1600 M0 980 H1600"/>
+  </g>
+
+  <!-- Decorative finance motifs at low opacity -->
+  <g opacity="0.14">
+    <!-- Coin (top-left) -->
+    <g transform="translate(170,200)">
+      <circle r="56" fill="none" stroke="#facc15" stroke-width="3"/>
+      <circle r="44" fill="none" stroke="#facc15" stroke-width="1.5"/>
+      <text y="14" font-size="64" font-weight="800" fill="#facc15" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif">₾</text>
+    </g>
+
+    <!-- Coin stack (right side) -->
+    <g transform="translate(1380,300)" fill="none" stroke="#facc15" stroke-width="2.4">
+      <ellipse rx="48" ry="14"/>
+      <ellipse cy="20" rx="48" ry="14"/>
+      <ellipse cy="40" rx="48" ry="14"/>
+      <ellipse cy="60" rx="48" ry="14"/>
+      <path d="M-48 0 V60 M48 0 V60"/>
+    </g>
+
+    <!-- Credit card outline (bottom-left) -->
+    <g transform="translate(160,860)" fill="none" stroke="#facc15" stroke-width="2.4" stroke-linejoin="round">
+      <rect x="-80" y="-50" width="160" height="100" rx="10"/>
+      <path d="M-80 -20 H80"/>
+      <path d="M-66 20 H-30"/>
+      <rect x="40" y="14" width="34" height="22" rx="3" fill="#facc15" opacity="0.3"/>
+    </g>
+
+    <!-- Document with lines (bottom-right) -->
+    <g transform="translate(1360,920)" fill="none" stroke="#facc15" stroke-width="2.4" stroke-linejoin="round">
+      <path d="M-60 -80 H40 L60 -60 V80 H-60 Z"/>
+      <path d="M40 -80 V-60 H60"/>
+      <path d="M-46 -32 H46 M-46 -12 H46 M-46 8 H46 M-46 28 H20"/>
+    </g>
+
+    <!-- Pencil (centre-top) -->
+    <g transform="translate(820,160) rotate(20)" fill="#facc15">
+      <rect x="-3" y="-90" width="6" height="180" rx="1"/>
+      <path d="M-3 -90 L3 -90 L0 -110 Z"/>
+      <rect x="-3" y="80" width="6" height="20" fill="#facc15" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Soft floating dots -->
+  <g fill="#facc15" opacity="0.18">
+    <circle cx="320" cy="540" r="3"/>
+    <circle cx="540" cy="380" r="4"/>
+    <circle cx="280" cy="780" r="3"/>
+    <circle cx="1180" cy="180" r="3"/>
+    <circle cx="1340" cy="620" r="4"/>
+    <circle cx="700" cy="980" r="3"/>
+    <circle cx="1060" cy="880" r="3"/>
+    <circle cx="240" cy="380" r="4"/>
+  </g>
+
+  <rect width="1600" height="200" fill="url(#topfade)"/>
+</svg>

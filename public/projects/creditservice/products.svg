@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -56 1600 1256" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <!-- Browser chrome -->
+  <rect x="0" y="-56" width="1600" height="56" fill="#e5e7eb"/>
+  <circle cx="28" cy="-28" r="8" fill="#ef4444"/>
+  <circle cx="54" cy="-28" r="8" fill="#fbbf24"/>
+  <circle cx="80" cy="-28" r="8" fill="#22c55e"/>
+  <rect x="480" y="-42" width="640" height="28" rx="14" fill="#ffffff"/>
+  <g transform="translate(508,-32)" stroke="#6b7280" stroke-width="1.4" fill="none">
+    <path d="M2 6 V4 a3 3 0 0 1 6 0 V6 M0 6 H10 V12 H0 Z"/>
+  </g>
+  <text x="800" y="-23" font-size="13" fill="#6b7280" text-anchor="middle">creditservice.ge/products</text>
+  <line x1="0" y1="0" x2="1600" y2="0" stroke="#d1d5db"/>
+
+  <rect width="1600" height="1200" fill="#fafaf7"/>
+
+  <!-- Top nav (same as home) -->
+  <rect x="0" y="0" width="1600" height="84" fill="#ffffff"/>
+  <line x1="0" y1="84" x2="1600" y2="84" stroke="#e5e7eb"/>
+  <g transform="translate(60,20)">
+    <circle cx="22" cy="22" r="22" fill="#facc15"/>
+    <path d="M30 14 a10 10 0 1 0 0 16" fill="none" stroke="#0a1220" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M28 18 V26 M24 22 H32" stroke="#0a1220" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <text x="116" y="36" font-size="20" font-weight="800" fill="#0f172a">კრედიტსერვისი +</text>
+  <text x="116" y="58" font-size="11" fill="#6b7280">მიკროსაფინანსო ორგანიზაცია</text>
+
+  <text x="470" y="50" font-size="15" fill="#6b7280">მთავარი</text>
+  <text x="560" y="50" font-size="15" fill="#0f172a">კომპანიის შესახებ</text>
+  <text x="754" y="50" font-size="15" fill="#0f172a">ანგარიშგება</text>
+  <text x="898" y="50" font-size="15" fill="#0f172a">კონტაქტი</text>
+  <g transform="translate(1322,24)">
+    <rect width="218" height="44" rx="22" fill="#facc15"/>
+    <text x="109" y="29" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">მოითხოვე სესხი</text>
+  </g>
+
+  <!-- Breadcrumb -->
+  <g transform="translate(60,116)">
+    <text font-size="13" fill="#6b7280">მთავარი</text>
+    <text x="76" font-size="13" fill="#6b7280">›</text>
+    <text x="92" font-size="13" font-weight="700" fill="#0f172a">სასესხო პროდუქტები</text>
+  </g>
+
+  <!-- Title row -->
+  <text x="60" y="184" font-size="40" font-weight="800" fill="#0f172a">სასესხო პროდუქტები</text>
+  <text x="60" y="220" font-size="16" fill="#6b7280">აირჩიეთ თქვენთვის შესაფერისი სასესხო პროდუქტი — დაამტკიცეთ ონლაინ რეჟიმში.</text>
+
+  <!-- Tabs -->
+  <g transform="translate(60,250)">
+    <rect width="160" height="40" rx="20" fill="#0f172a"/>
+    <text x="80" y="26" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">ყველა</text>
+
+    <rect x="172" width="160" height="40" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="252" y="26" font-size="13" font-weight="600" fill="#0f172a" text-anchor="middle">სალომბარდე</text>
+
+    <rect x="344" width="160" height="40" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="424" y="26" font-size="13" font-weight="600" fill="#0f172a" text-anchor="middle">სამომხმარებლო</text>
+
+    <rect x="516" width="160" height="40" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="596" y="26" font-size="13" font-weight="600" fill="#0f172a" text-anchor="middle">ბიზნეს</text>
+  </g>
+
+  <!-- 4 loan product cards in 2x2 grid -->
+  <!-- Card 1: Lombard / Gold-backed -->
+  <g transform="translate(60,316)">
+    <rect width="730" height="350" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <!-- top tag bar -->
+    <rect width="730" height="6" rx="3" fill="#facc15"/>
+    <g transform="translate(32,32)">
+      <rect width="120" height="26" rx="13" fill="#fef3c7"/>
+      <text x="60" y="18" font-size="12" font-weight="700" fill="#92400e" text-anchor="middle">სალომბარდე</text>
+    </g>
+    <!-- icon -->
+    <g transform="translate(620,28)">
+      <rect width="78" height="78" rx="14" fill="#fef3c7"/>
+      <g transform="translate(19,18)" stroke="#d97706" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="20" cy="20" r="18"/>
+        <text x="20" y="26" font-size="20" font-weight="800" fill="#d97706" text-anchor="middle">₾</text>
+      </g>
+    </g>
+
+    <text x="32" y="116" font-size="24" font-weight="800" fill="#0f172a">ოქროს გირაოს სესხი</text>
+    <text x="32" y="146" font-size="14" fill="#6b7280">ფიქსირებული პროცენტი, სწრაფი დამტკიცება</text>
+
+    <!-- Specs -->
+    <g transform="translate(32,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">საპროცენტო განაკვეთი</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">1.7%</text>
+      <text x="64" y="28" font-size="13" fill="#6b7280">/ თვე</text>
+    </g>
+    <g transform="translate(260,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">ვადა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">12</text>
+      <text x="32" y="28" font-size="13" fill="#6b7280">თვემდე</text>
+    </g>
+    <g transform="translate(440,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">თანხა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">200 — 50,000 ₾</text>
+    </g>
+
+    <line x1="32" y1="244" x2="698" y2="244" stroke="#f3f4f6"/>
+
+    <text x="32" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ ერთ დღეში დამტკიცება</text>
+    <text x="280" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ ცნობების გარეშე</text>
+
+    <g transform="translate(32,302)">
+      <rect width="180" height="36" rx="18" fill="#0f172a"/>
+      <text x="90" y="23" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">განაცხადის შევსება</text>
+    </g>
+    <text x="226" y="324" font-size="13" font-weight="700" fill="#0f172a">გაიგე მეტი  →</text>
+  </g>
+
+  <!-- Card 2: SME -->
+  <g transform="translate(810,316)">
+    <rect width="730" height="350" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <rect width="730" height="6" rx="3" fill="#0ea5e9"/>
+    <g transform="translate(32,32)">
+      <rect width="98" height="26" rx="13" fill="#dbeafe"/>
+      <text x="49" y="18" font-size="12" font-weight="700" fill="#1d4ed8" text-anchor="middle">ბიზნეს</text>
+    </g>
+    <g transform="translate(620,28)">
+      <rect width="78" height="78" rx="14" fill="#dbeafe"/>
+      <g transform="translate(19,18)" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="14" width="36" height="22" rx="2"/>
+        <path d="M12 14 V8 a4 4 0 0 1 16 0 V14"/>
+      </g>
+    </g>
+
+    <text x="32" y="116" font-size="24" font-weight="800" fill="#0f172a">მცირე ბიზნესის სესხი</text>
+    <text x="32" y="146" font-size="14" fill="#6b7280">სამეწარმეო კაპიტალის გასაზრდელად</text>
+
+    <g transform="translate(32,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">საპროცენტო განაკვეთი</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">2.2%</text>
+      <text x="64" y="28" font-size="13" fill="#6b7280">/ თვე</text>
+    </g>
+    <g transform="translate(260,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">ვადა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">24</text>
+      <text x="32" y="28" font-size="13" fill="#6b7280">თვემდე</text>
+    </g>
+    <g transform="translate(440,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">თანხა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">5,000 — 200,000 ₾</text>
+    </g>
+
+    <line x1="32" y1="244" x2="698" y2="244" stroke="#f3f4f6"/>
+
+    <text x="32" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ მენეჯერი თქვენთან ერთად</text>
+    <text x="320" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ მოქნილი გრაფიკი</text>
+
+    <g transform="translate(32,302)">
+      <rect width="180" height="36" rx="18" fill="#0f172a"/>
+      <text x="90" y="23" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">კონსულტაცია</text>
+    </g>
+    <text x="226" y="324" font-size="13" font-weight="700" fill="#0f172a">გაიგე მეტი  →</text>
+  </g>
+
+  <!-- Card 3: Consumer / payday -->
+  <g transform="translate(60,696)">
+    <rect width="730" height="350" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <rect width="730" height="6" rx="3" fill="#16a34a"/>
+    <g transform="translate(32,32)">
+      <rect width="148" height="26" rx="13" fill="#dcfce7"/>
+      <text x="74" y="18" font-size="12" font-weight="700" fill="#15803d" text-anchor="middle">სამომხმარებლო</text>
+    </g>
+    <g transform="translate(620,28)">
+      <rect width="78" height="78" rx="14" fill="#dcfce7"/>
+      <g transform="translate(20,20)" stroke="#15803d" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="6" width="38" height="28" rx="3"/>
+        <path d="M0 14 H38"/>
+        <path d="M6 24 H14"/>
+      </g>
+    </g>
+
+    <text x="32" y="116" font-size="24" font-weight="800" fill="#0f172a">სამომხმარებლო სესხი</text>
+    <text x="32" y="146" font-size="14" fill="#6b7280">სწრაფი თანხა მცირე საჭიროებებისთვის</text>
+
+    <g transform="translate(32,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">საპროცენტო განაკვეთი</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">2.9%</text>
+      <text x="64" y="28" font-size="13" fill="#6b7280">/ თვე</text>
+    </g>
+    <g transform="translate(260,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">ვადა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">6</text>
+      <text x="22" y="28" font-size="13" fill="#6b7280">თვემდე</text>
+    </g>
+    <g transform="translate(440,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">თანხა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">100 — 5,000 ₾</text>
+    </g>
+
+    <line x1="32" y1="244" x2="698" y2="244" stroke="#f3f4f6"/>
+
+    <text x="32" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ 15 წუთში დამტკიცება</text>
+    <text x="280" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ უპროცენტო პერიოდი</text>
+
+    <g transform="translate(32,302)">
+      <rect width="180" height="36" rx="18" fill="#0f172a"/>
+      <text x="90" y="23" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">მიიღე სესხი</text>
+    </g>
+    <text x="226" y="324" font-size="13" font-weight="700" fill="#0f172a">გაიგე მეტი  →</text>
+  </g>
+
+  <!-- Card 4: Auto-backed -->
+  <g transform="translate(810,696)">
+    <rect width="730" height="350" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <rect width="730" height="6" rx="3" fill="#a855f7"/>
+    <g transform="translate(32,32)">
+      <rect width="148" height="26" rx="13" fill="#f3e8ff"/>
+      <text x="74" y="18" font-size="12" font-weight="700" fill="#7e22ce" text-anchor="middle">ავტო გირაო</text>
+    </g>
+    <g transform="translate(620,28)">
+      <rect width="78" height="78" rx="14" fill="#f3e8ff"/>
+      <g transform="translate(16,28)" stroke="#7e22ce" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 14 l4 -10 a3 3 0 0 1 3 -2 h26 a3 3 0 0 1 3 2 l4 10 v8 h-40 z"/>
+        <circle cx="10" cy="24" r="3" fill="#7e22ce"/>
+        <circle cx="34" cy="24" r="3" fill="#7e22ce"/>
+      </g>
+    </g>
+
+    <text x="32" y="116" font-size="24" font-weight="800" fill="#0f172a">ავტო გირაოს სესხი</text>
+    <text x="32" y="146" font-size="14" fill="#6b7280">დაიტოვე ავტომობილი, აიღე სასურველი თანხა</text>
+
+    <g transform="translate(32,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">საპროცენტო განაკვეთი</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">1.9%</text>
+      <text x="64" y="28" font-size="13" fill="#6b7280">/ თვე</text>
+    </g>
+    <g transform="translate(260,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">ვადა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">36</text>
+      <text x="32" y="28" font-size="13" fill="#6b7280">თვემდე</text>
+    </g>
+    <g transform="translate(440,180)">
+      <text font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="0.5">თანხა</text>
+      <text y="28" font-size="22" font-weight="800" fill="#0f172a">1,000 — 100,000 ₾</text>
+    </g>
+
+    <line x1="32" y1="244" x2="698" y2="244" stroke="#f3f4f6"/>
+
+    <text x="32" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ ავტომობილი თქვენთან რჩება</text>
+    <text x="360" y="282" font-size="13" font-weight="700" fill="#16a34a">✓ მცირე საბუთები</text>
+
+    <g transform="translate(32,302)">
+      <rect width="180" height="36" rx="18" fill="#0f172a"/>
+      <text x="90" y="23" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">შეფასება</text>
+    </g>
+    <text x="226" y="324" font-size="13" font-weight="700" fill="#0f172a">გაიგე მეტი  →</text>
+  </g>
+
+  <!-- Bottom info strip -->
+  <g transform="translate(60,1086)">
+    <rect width="1480" height="80" rx="14" fill="#fffbeb" stroke="#fde68a"/>
+    <g transform="translate(32,18)">
+      <circle cx="22" cy="22" r="22" fill="#facc15"/>
+      <text x="22" y="30" font-size="22" font-weight="800" fill="#0f172a" text-anchor="middle">?</text>
+    </g>
+    <text x="98" y="38" font-size="16" font-weight="800" fill="#0f172a">გჭირდებათ კონსულტაცია?</text>
+    <text x="98" y="62" font-size="13" fill="#6b7280">დაგვიკავშირდით +995 595 120 120 — ჩვენი მენეჯერი დაგეხმარებათ შესაბამისი პროდუქტის არჩევაში.</text>
+
+    <g transform="translate(1264,22)">
+      <rect width="194" height="36" rx="18" fill="#0f172a"/>
+      <text x="97" y="23" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">დაგვიკავშირდი</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" font-family="-apple-system, system-ui, sans-serif">
+  <rect width="390" height="844" fill="#faf8f4"/>
+
+  <!-- Status bar -->
+  <g transform="translate(22,22)">
+    <rect width="46" height="22" rx="11" fill="#22c55e"/>
+    <text x="23" y="16" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">5:38</text>
+  </g>
+  <g transform="translate(298,28)" fill="#000">
+    <rect x="0" y="6" width="3" height="4" rx="0.6"/>
+    <rect x="5" y="4" width="3" height="6" rx="0.6"/>
+    <rect x="10" y="2" width="3" height="8" rx="0.6"/>
+    <rect x="15" y="0" width="3" height="10" rx="0.6"/>
+    <text x="29" y="10" font-size="10" font-weight="700" fill="#000">5G</text>
+    <path d="M40 6 q4 -5 10 -5 q6 0 10 5" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M43 8 q3 -3 7 -3 q4 0 7 3" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="50" cy="10" r="1.2"/>
+    <rect x="66" y="2" width="26" height="10" rx="2.5" fill="none" stroke="#000" stroke-width="1"/>
+    <rect x="93" y="5" width="1.8" height="4" rx="0.5"/>
+    <rect x="68" y="4" width="22" height="6" rx="1.5" fill="#000"/>
+    <text x="80" y="9" font-size="6" font-weight="700" fill="#fff" text-anchor="middle">12</text>
+  </g>
+
+  <!-- Header -->
+  <text x="24" y="100" font-size="32" font-weight="800" fill="#0f172a">Profile</text>
+  <text x="24" y="124" font-size="14" fill="#9ca3af">John Doe</text>
+
+  <line x1="0" y1="144" x2="390" y2="144" stroke="#eceae5"/>
+
+  <!-- User card -->
+  <g transform="translate(16,164)">
+    <rect width="358" height="106" rx="16" fill="#ffffff" stroke="#eceae5"/>
+    <!-- avatar -->
+    <circle cx="58" cy="52" r="36" fill="#16a34a"/>
+    <text x="58" y="64" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">j</text>
+    <!-- presence dot -->
+    <circle cx="88" cy="78" r="7" fill="#22c55e" stroke="#ffffff" stroke-width="2.4"/>
+
+    <text x="108" y="42" font-size="18" font-weight="800" fill="#0f172a">John Doe</text>
+    <!-- #004 chip -->
+    <rect x="186" y="26" width="42" height="22" rx="6" fill="#fbbf24"/>
+    <text x="207" y="42" font-size="12" font-weight="700" fill="#7c2d12" text-anchor="middle">#004</text>
+
+    <text x="108" y="62" font-size="13" fill="#6b7280">john.doe@cafeter.io</text>
+
+    <!-- Marketing chip -->
+    <rect x="108" y="74" width="92" height="22" rx="6" fill="#f3f4f6"/>
+    <g transform="translate(116,80)" stroke="#6b7280" stroke-width="1.4" fill="none">
+      <rect x="0" y="0" width="9" height="10" rx="0.6"/>
+      <path d="M2 3 h1 M5 3 h1 M2 6 h1 M5 6 h1"/>
+    </g>
+    <text x="128" y="89" font-size="12" font-weight="600" fill="#6b7280">Marketing</text>
+  </g>
+
+  <!-- Daily Budget card -->
+  <g transform="translate(16,294)">
+    <rect width="358" height="186" rx="16" fill="#ffffff" stroke="#eceae5"/>
+    <!-- wallet icon -->
+    <g transform="translate(16,16)">
+      <rect width="34" height="34" rx="8" fill="#dcfce7"/>
+      <g transform="translate(7,9)" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="2" width="20" height="14" rx="2"/>
+        <path d="M14 8 H18"/>
+      </g>
+    </g>
+    <text x="60" y="40" font-size="16" font-weight="800" fill="#0f172a">Daily Budget</text>
+
+    <!-- Total | Remaining columns -->
+    <text x="62" y="76" font-size="11" font-weight="700" fill="#9ca3af" text-anchor="middle" letter-spacing="0.5">TOTAL</text>
+    <text x="62" y="102" font-size="20" font-weight="800" fill="#0f172a" text-anchor="middle">15.00 ₾</text>
+    <line x1="176" y1="64" x2="176" y2="108" stroke="#eceae5"/>
+    <text x="270" y="76" font-size="11" font-weight="700" fill="#9ca3af" text-anchor="middle" letter-spacing="0.5">REMAINING</text>
+    <text x="270" y="102" font-size="20" font-weight="800" fill="#16a34a" text-anchor="middle">6.00 ₾</text>
+
+    <!-- Progress -->
+    <rect x="16" y="118" width="326" height="8" rx="4" fill="#f3f4f6"/>
+    <rect x="16" y="118" width="196" height="8" rx="4" fill="#16a34a"/>
+    <text x="342" y="142" font-size="11" font-weight="600" fill="#9ca3af" text-anchor="end">60% used</text>
+
+    <line x1="16" y1="152" x2="342" y2="152" stroke="#eceae5"/>
+
+    <!-- Gift credit -->
+    <g transform="translate(16,162)">
+      <rect width="22" height="20" rx="3" fill="#7c3aed"/>
+      <path d="M0 8 H22 M11 4 V20 M5 4 q0 -4 6 -2 q6 -2 6 2" stroke="#ffffff" stroke-width="1.4" fill="none"/>
+    </g>
+    <text x="50" y="178" font-size="13" font-weight="700" fill="#0f172a">Gift Credit</text>
+    <text x="342" y="178" font-size="13" font-weight="800" fill="#7c3aed" text-anchor="end">0.00 ₾</text>
+  </g>
+
+  <!-- Settings -->
+  <text x="24" y="514" font-size="11" font-weight="700" fill="#9ca3af" letter-spacing="1">SETTINGS</text>
+
+  <g transform="translate(16,528)">
+    <rect width="358" height="148" rx="16" fill="#ffffff" stroke="#eceae5"/>
+
+    <!-- Language row -->
+    <g transform="translate(16,20)">
+      <rect width="34" height="34" rx="17" fill="#dcfce7"/>
+      <g transform="translate(8,8)" fill="none" stroke="#16a34a" stroke-width="1.8">
+        <circle cx="9" cy="9" r="8"/>
+        <path d="M1 9 H17 M9 1 a10 10 0 0 1 0 16 a10 10 0 0 1 0 -16"/>
+      </g>
+    </g>
+    <text x="60" y="42" font-size="15" font-weight="700" fill="#0f172a">Language</text>
+    <text x="60" y="60" font-size="12" fill="#9ca3af">English</text>
+    <!-- US flag -->
+    <g transform="translate(284,30)">
+      <clipPath id="flg"><rect width="28" height="20" rx="3"/></clipPath>
+      <g clip-path="url(#flg)">
+        <rect width="28" height="20" fill="#ffffff"/>
+        <rect y="2" width="28" height="2" fill="#dc2626"/>
+        <rect y="6" width="28" height="2" fill="#dc2626"/>
+        <rect y="10" width="28" height="2" fill="#dc2626"/>
+        <rect y="14" width="28" height="2" fill="#dc2626"/>
+        <rect y="18" width="28" height="2" fill="#dc2626"/>
+        <rect width="12" height="10" fill="#1d4ed8"/>
+        <g fill="#ffffff" font-size="3">
+          <text x="2" y="4">★</text><text x="6" y="4">★</text><text x="10" y="4">★</text>
+          <text x="4" y="7">★</text><text x="8" y="7">★</text>
+        </g>
+      </g>
+    </g>
+    <path d="M324 36 l6 4 l-6 4" stroke="#9ca3af" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <line x1="60" y1="78" x2="342" y2="78" stroke="#eceae5"/>
+
+    <!-- Push Notifications -->
+    <g transform="translate(16,92)">
+      <rect width="34" height="34" rx="17" fill="#dcfce7"/>
+      <g transform="translate(11,8)" stroke="#16a34a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 14 V8 a4 4 0 0 1 8 0 V14 L11 16 H1 Z"/>
+        <path d="M4.5 16 a1.5 1.5 0 0 0 3 0"/>
+      </g>
+    </g>
+    <text x="60" y="114" font-size="15" font-weight="700" fill="#0f172a">Push Notifications</text>
+    <text x="60" y="132" font-size="12" fill="#9ca3af">Receive order updates and</text>
+    <text x="60" y="146" font-size="12" fill="#9ca3af">reminders</text>
+
+    <!-- Toggle -->
+    <rect x="290" y="104" width="48" height="28" rx="14" fill="#16a34a"/>
+    <circle cx="324" cy="118" r="11" fill="#ffffff"/>
+  </g>
+
+  <!-- Bottom tab bar -->
+  <rect x="0" y="755" width="390" height="89" fill="#faf8f4"/>
+  <line x1="0" y1="755" x2="390" y2="755" stroke="#eceae5"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(48,776)" stroke="#9ca3af" stroke-width="2.2">
+      <path d="M2 2 L20 20 M20 2 L2 20"/>
+      <path d="M6 2 v6 a3 3 0 0 0 3 3 h2 v9"/>
+    </g>
+
+    <g transform="translate(140,776)" stroke="#9ca3af" stroke-width="2.2">
+      <path d="M3 8 H21 V22 a2 2 0 0 1 -2 2 H5 a2 2 0 0 1 -2 -2 Z"/>
+      <path d="M8 8 V5 a4 4 0 0 1 8 0 V8"/>
+    </g>
+    <circle cx="166" cy="780" r="8" fill="#16a34a"/>
+    <text x="166" y="784" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+
+    <g transform="translate(230,776)" stroke="#9ca3af" stroke-width="2.2">
+      <path d="M4 2 H20 V22 L17 20 L14 22 L11 20 L8 22 L4 20 Z"/>
+      <path d="M8 8 H16 M8 12 H16 M8 16 H13"/>
+    </g>
+
+    <!-- Profile (active) -->
+    <g transform="translate(298,768)">
+      <circle cx="32" cy="22" r="26" fill="#dcfce7"/>
+      <g transform="translate(18,8)" stroke="#16a34a" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="14" cy="9" r="5" fill="#16a34a"/>
+        <path d="M3 26 a11 11 0 0 1 22 0" fill="#16a34a"/>
+      </g>
+      <circle cx="32" cy="50" r="3" fill="#16a34a"/>
+    </g>
+  </g>
+</svg>

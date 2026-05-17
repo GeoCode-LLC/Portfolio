@@ -10,6 +10,8 @@ import { PhoneFrame } from "./PhoneFrame";
 function Card({ p, lang, view }: { p: (typeof projects)[number]; lang: "en" | "ka"; view: string }) {
   const meta = p[lang];
   const isMobile = p.kind === "mobile";
+  const isFramedWeb = p.kind === "web" && p.framed;
+  const isFloating = isMobile || isFramedWeb;
   return (
     <motion.div whileHover="hover" initial="rest" animate="rest" className="h-full">
       <Link
@@ -18,9 +20,9 @@ function Card({ p, lang, view }: { p: (typeof projects)[number]; lang: "en" | "k
       >
         <div
           className="relative aspect-[4/3] overflow-hidden"
-          style={isMobile && p.accent ? { background: `radial-gradient(circle at 50% 40%, ${p.accent}33, transparent 70%), #0f1010` } : undefined}
+          style={isFloating && p.accent ? { background: `radial-gradient(circle at 50% 40%, ${p.accent}33, transparent 70%), #0f1010` } : undefined}
         >
-          {isMobile ? (
+          {isFloating ? (
             <>
               <img
                 src={p.backdrop ?? p.cover}
@@ -29,9 +31,15 @@ function Card({ p, lang, view }: { p: (typeof projects)[number]; lang: "en" | "k
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-[var(--color-ink)]/0 group-hover:bg-[var(--color-ink)]/20 transition-colors duration-500" />
-              <div className="absolute inset-0 flex items-center justify-center p-6">
-                <div className="h-full transition-transform duration-500 ease-out group-hover:-translate-y-1">
-                  <PhoneFrame src={p.cover} alt={meta.title} className="h-full" />
+              <div className="absolute inset-0 flex items-center justify-center p-6 md:p-10">
+                <div className="transition-transform duration-500 ease-out group-hover:-translate-y-1 w-full h-full flex items-center justify-center">
+                  {isMobile ? (
+                    <PhoneFrame src={p.cover} alt={meta.title} className="h-full" />
+                  ) : (
+                    <div className="w-full max-w-[90%] rounded-xl overflow-hidden shadow-[0_30px_60px_-20px_rgba(0,0,0,0.7)] border border-white/15 bg-white">
+                      <img src={p.cover} alt={meta.title} className="w-full block" />
+                    </div>
+                  )}
                 </div>
               </div>
             </>
@@ -47,7 +55,7 @@ function Card({ p, lang, view }: { p: (typeof projects)[number]; lang: "en" | "k
               className="w-full h-full object-cover"
             />
           )}
-          {!isMobile && (
+          {!isFloating && (
             <motion.div
               variants={{ rest: { opacity: 0 }, hover: { opacity: 1 } }}
               transition={{ duration: 0.4 }}

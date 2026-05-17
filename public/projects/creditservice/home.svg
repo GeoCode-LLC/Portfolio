@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -56 1600 1256" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <!-- Browser chrome -->
+  <rect x="0" y="-56" width="1600" height="56" fill="#e5e7eb"/>
+  <circle cx="28" cy="-28" r="8" fill="#ef4444"/>
+  <circle cx="54" cy="-28" r="8" fill="#fbbf24"/>
+  <circle cx="80" cy="-28" r="8" fill="#22c55e"/>
+  <rect x="480" y="-42" width="640" height="28" rx="14" fill="#ffffff"/>
+  <g transform="translate(508,-32)" stroke="#6b7280" stroke-width="1.4" fill="none">
+    <path d="M2 6 V4 a3 3 0 0 1 6 0 V6 M0 6 H10 V12 H0 Z"/>
+  </g>
+  <text x="800" y="-23" font-size="13" fill="#6b7280" text-anchor="middle">creditservice.ge</text>
+  <line x1="0" y1="0" x2="1600" y2="0" stroke="#d1d5db"/>
+
+  <!-- Page bg -->
+  <rect width="1600" height="1200" fill="#ffffff"/>
+
+  <!-- ============ TOP NAV ============ -->
+  <rect x="0" y="0" width="1600" height="84" fill="#ffffff"/>
+  <line x1="0" y1="84" x2="1600" y2="84" stroke="#e5e7eb"/>
+
+  <!-- Logo: yellow C+ mark -->
+  <g transform="translate(60,20)">
+    <circle cx="22" cy="22" r="22" fill="#facc15"/>
+    <path d="M30 14 a10 10 0 1 0 0 16" fill="none" stroke="#0a1220" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M28 18 V26 M24 22 H32" stroke="#0a1220" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <text x="116" y="36" font-size="20" font-weight="800" fill="#0f172a">კრედიტსერვისი +</text>
+  <text x="116" y="58" font-size="11" fill="#6b7280">მიკროსაფინანსო ორგანიზაცია</text>
+
+  <!-- Nav links -->
+  <text x="470" y="50" font-size="15" fill="#0f172a">მთავარი</text>
+  <text x="560" y="50" font-size="15" fill="#0f172a">კომპანიის შესახებ</text>
+  <path d="M724 44 l5 5 l5 -5" stroke="#0f172a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="754" y="50" font-size="15" fill="#0f172a">ანგარიშგება</text>
+  <path d="M868 44 l5 5 l5 -5" stroke="#0f172a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="898" y="50" font-size="15" fill="#0f172a">კონტაქტი</text>
+  <path d="M988 44 l5 5 l5 -5" stroke="#0f172a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Location pin -->
+  <g transform="translate(1262,28)">
+    <circle cx="20" cy="20" r="20" fill="#f3f4f6"/>
+    <g transform="translate(13,9)" fill="#facc15" stroke="#0f172a" stroke-width="1.2">
+      <path d="M7 0 q7 0 7 7 q0 8 -7 15 q-7 -7 -7 -15 q0 -7 7 -7 z"/>
+      <circle cx="7" cy="7" r="3" fill="#ffffff" stroke="#0f172a"/>
+    </g>
+  </g>
+
+  <!-- Request Loan CTA -->
+  <g transform="translate(1322,24)">
+    <rect width="218" height="44" rx="22" fill="#facc15"/>
+    <text x="109" y="29" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">მოითხოვე სესხი</text>
+  </g>
+
+  <!-- ============ ONLINE PAYMENT STRIP ============ -->
+  <g transform="translate(60,120)">
+    <rect width="1480" height="60" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.4"/>
+    <text x="32" y="38" font-size="17" font-weight="700" fill="#0f172a">სესხის ონლაინ გადახდა.</text>
+    <g transform="translate(1280,12)">
+      <rect width="174" height="36" rx="18" fill="#0f172a"/>
+      <text x="87" y="23" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">ონლაინ გადახდა</text>
+    </g>
+  </g>
+
+  <!-- ============ HERO ============ -->
+  <g transform="translate(60,200)">
+    <clipPath id="heroclip"><rect width="1480" height="360" rx="14"/></clipPath>
+    <g clip-path="url(#heroclip)">
+      <!-- Chalkboard / desk dark background -->
+      <rect width="1480" height="360" fill="#1f2937"/>
+      <rect width="1480" height="360" fill="url(#heroGrad)"/>
+      <defs>
+        <radialGradient id="heroGrad" cx="0.5" cy="0.5" r="0.6">
+          <stop offset="0" stop-color="#374151" stop-opacity="0.6"/>
+          <stop offset="1" stop-color="#0a1220" stop-opacity="0.9"/>
+        </radialGradient>
+      </defs>
+
+      <!-- Stationary decorations -->
+      <!-- Top-left: paper / cardboard box -->
+      <g transform="translate(120,80)">
+        <rect width="120" height="80" rx="4" fill="#a08a5e"/>
+        <path d="M0 30 H120" stroke="#7c6845" stroke-width="2"/>
+        <path d="M60 0 V30" stroke="#7c6845" stroke-width="2"/>
+        <path d="M30 30 L20 50 M90 30 L100 50" stroke="#7c6845" stroke-width="1.6"/>
+      </g>
+
+      <!-- Top-centre-left: succulent in pot -->
+      <g transform="translate(290,30)">
+        <rect x="-22" y="40" width="44" height="38" rx="3" fill="#d6c896"/>
+        <ellipse cx="-12" cy="36" rx="14" ry="8" fill="#84a06b"/>
+        <ellipse cx="6" cy="30" rx="12" ry="9" fill="#a3bf7a"/>
+        <ellipse cx="-2" cy="22" rx="10" ry="8" fill="#84a06b"/>
+        <ellipse cx="14" cy="40" rx="10" ry="7" fill="#a3bf7a"/>
+      </g>
+
+      <!-- Top-centre-right: notebook + paperclips -->
+      <g transform="translate(820,40)">
+        <rect width="160" height="100" rx="3" fill="#e5e7eb"/>
+        <path d="M0 20 H160 M0 36 H160 M0 52 H160 M0 68 H160 M0 84 H160" stroke="#cbd5e1" stroke-width="0.8"/>
+        <rect width="20" height="100" fill="#9ca3af"/>
+      </g>
+      <!-- Paperclips -->
+      <g transform="translate(1020,80)" stroke="#facc15" stroke-width="2.4" fill="none">
+        <path d="M2 0 q-2 8 4 12 q6 -4 4 -12 M0 0 h12 M-2 14 h16"/>
+      </g>
+      <g transform="translate(1080,60) rotate(-20)" stroke="#facc15" stroke-width="2.4" fill="none">
+        <path d="M2 0 q-2 8 4 12 q6 -4 4 -12 M0 0 h12 M-2 14 h16"/>
+      </g>
+
+      <!-- Top-right: pencil cup -->
+      <g transform="translate(1300,30)">
+        <ellipse cx="40" cy="100" rx="44" ry="14" fill="#1f1f1f"/>
+        <rect x="-4" y="60" width="88" height="42" rx="3" fill="#2a2a2a"/>
+        <ellipse cx="40" cy="60" rx="44" ry="12" fill="#3a3a3a"/>
+        <ellipse cx="40" cy="58" rx="40" ry="10" fill="#0f0f0f"/>
+        <!-- pencils sticking out -->
+        <g transform="translate(20,-10)">
+          <rect width="4" height="70" fill="#fde047"/>
+          <path d="M0 0 L4 0 L2 -10 Z" fill="#0f172a"/>
+        </g>
+        <g transform="translate(36,-30)">
+          <rect width="4" height="90" fill="#facc15"/>
+          <path d="M0 0 L4 0 L2 -10 Z" fill="#0f172a"/>
+        </g>
+        <g transform="translate(56,-20) rotate(8)">
+          <rect width="4" height="80" fill="#fbbf24"/>
+          <path d="M0 0 L4 0 L2 -10 Z" fill="#0f172a"/>
+        </g>
+      </g>
+
+      <!-- Bottom-left: newspaper -->
+      <g transform="translate(80,240)">
+        <rect width="220" height="120" fill="#e5dac6"/>
+        <g stroke="#6b7280" stroke-width="0.6">
+          <path d="M10 14 H210 M10 24 H210 M10 34 H210 M10 44 H210 M10 54 H210 M10 64 H210 M10 74 H210 M10 84 H210 M10 94 H210 M10 104 H210 M10 114 H210"/>
+        </g>
+      </g>
+
+      <!-- Bottom-left center: paperclips ball -->
+      <g transform="translate(330,310)" fill="none" stroke="#facc15" stroke-width="1.6">
+        <circle r="34" fill="#1a1a1a"/>
+        <path d="M-22 -10 q-4 14 8 18 q14 4 14 -8"/>
+        <path d="M-10 -22 q14 -4 18 8 q4 14 -8 14"/>
+        <path d="M16 -16 q8 8 0 22"/>
+        <path d="M-20 8 q12 14 24 4"/>
+        <path d="M0 -28 q12 4 8 16"/>
+      </g>
+
+      <!-- Bottom-right: pencils -->
+      <g transform="translate(1170,300) rotate(-12)">
+        <rect width="180" height="14" rx="2" fill="#e5e7eb"/>
+        <path d="M180 0 L180 14 L196 7 Z" fill="#0f172a"/>
+        <rect x="-12" y="0" width="12" height="14" rx="2" fill="#fb7185"/>
+      </g>
+      <g transform="translate(1140,318) rotate(-6)">
+        <rect width="200" height="14" rx="2" fill="#fde68a"/>
+        <path d="M200 0 L200 14 L216 7 Z" fill="#0f172a"/>
+        <rect x="-12" y="0" width="12" height="14" rx="2" fill="#fb7185"/>
+      </g>
+    </g>
+
+    <!-- Yellow C+ centerpiece -->
+    <g transform="translate(680,100)">
+      <circle cx="60" cy="60" r="58" fill="none"/>
+      <path d="M104 30 a40 40 0 1 0 0 60" fill="none" stroke="#facc15" stroke-width="14" stroke-linecap="round"/>
+      <path d="M96 50 V70 M86 60 H106" stroke="#facc15" stroke-width="10" stroke-linecap="round"/>
+    </g>
+
+    <text x="740" y="270" font-size="42" font-weight="800" fill="#ffffff" text-anchor="middle">მისო კრედიტსერვისი +</text>
+    <text x="740" y="306" font-size="16" fill="#facc15" text-anchor="middle" letter-spacing="2">მიკროსაფინანსო ორგანიზაცია</text>
+  </g>
+
+  <!-- ============ PRODUCT CARDS ============ -->
+  <!-- Card 1: Non-loan products -->
+  <g transform="translate(60,600)">
+    <rect width="730" height="380" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.4"/>
+    <!-- illustrated image area -->
+    <clipPath id="c1"><rect x="0" y="0" width="730" height="240" rx="14"/></clipPath>
+    <g clip-path="url(#c1)">
+      <rect width="730" height="240" fill="#dbeafe"/>
+      <!-- desk surface -->
+      <rect y="170" width="730" height="70" fill="#cbd5e1"/>
+      <!-- calculator -->
+      <g transform="translate(60,90)">
+        <rect width="200" height="160" rx="8" fill="#0f172a"/>
+        <rect x="14" y="14" width="172" height="36" rx="4" fill="#1e293b"/>
+        <text x="178" y="40" font-size="22" font-weight="700" fill="#22d3ee" text-anchor="end">2,450.00</text>
+        <g fill="#facc15">
+          <rect x="14" y="58" width="42" height="32" rx="6"/>
+          <text x="35" y="80" font-size="22" font-weight="800" fill="#0f172a" text-anchor="middle">+</text>
+        </g>
+        <rect x="60" y="58" width="42" height="32" rx="6" fill="#22d3ee"/>
+        <rect x="106" y="58" width="42" height="32" rx="6" fill="#06b6d4"/>
+        <rect x="152" y="58" width="34" height="32" rx="6" fill="#0e7490"/>
+        <rect x="14" y="94" width="42" height="32" rx="6" fill="#475569"/>
+        <rect x="60" y="94" width="42" height="32" rx="6" fill="#475569"/>
+        <rect x="106" y="94" width="42" height="32" rx="6" fill="#475569"/>
+        <rect x="152" y="94" width="34" height="32" rx="6" fill="#facc15"/>
+        <rect x="14" y="130" width="42" height="14" rx="3" fill="#475569"/>
+        <rect x="60" y="130" width="42" height="14" rx="3" fill="#475569"/>
+        <rect x="106" y="130" width="42" height="14" rx="3" fill="#475569"/>
+        <rect x="152" y="130" width="34" height="14" rx="3" fill="#facc15"/>
+      </g>
+      <!-- eyeglasses -->
+      <g transform="translate(370,100)" fill="none" stroke="#0f172a" stroke-width="3.5">
+        <circle cx="40" cy="60" r="34"/>
+        <circle cx="130" cy="60" r="34"/>
+        <path d="M74 60 H96"/>
+        <path d="M-4 38 L8 56" stroke-linecap="round"/>
+        <path d="M174 38 L162 56" stroke-linecap="round"/>
+      </g>
+      <!-- pen -->
+      <g transform="translate(560,130) rotate(-12)" fill="#0f172a">
+        <rect width="100" height="6" rx="1"/>
+        <path d="M100 0 L100 6 L114 3 Z"/>
+        <rect x="-10" y="0" width="14" height="6" rx="1" fill="#9ca3af"/>
+      </g>
+      <!-- coins -->
+      <g transform="translate(620,180)">
+        <ellipse cx="0" cy="6" rx="36" ry="6" fill="#a16207"/>
+        <ellipse rx="36" ry="6" fill="#facc15"/>
+        <text y="3" font-size="12" font-weight="800" fill="#0f172a" text-anchor="middle">₾</text>
+      </g>
+      <g transform="translate(560,200)">
+        <ellipse cx="0" cy="6" rx="32" ry="5" fill="#a16207"/>
+        <ellipse rx="32" ry="5" fill="#facc15"/>
+        <text y="3" font-size="10" font-weight="800" fill="#0f172a" text-anchor="middle">₾</text>
+      </g>
+    </g>
+
+    <text x="36" y="280" font-size="22" font-weight="700" fill="#0f172a">არასასესხო პროდუქტები</text>
+    <text x="36" y="312" font-size="14" fill="#6b7280">იხილეთ ინფორმაცია ფულად გზავნილებსა და</text>
+    <text x="36" y="332" font-size="14" fill="#6b7280">არასასესხო პროდუქტების შესახებ.</text>
+    <text x="36" y="362" font-size="14" font-weight="700" fill="#d97706">გაიგე მეტი  →</text>
+  </g>
+
+  <!-- Card 2: Loan products -->
+  <g transform="translate(810,600)">
+    <rect width="730" height="380" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.4"/>
+    <clipPath id="c2"><rect x="0" y="0" width="730" height="240" rx="14"/></clipPath>
+    <g clip-path="url(#c2)">
+      <rect width="730" height="240" fill="#fef3c7"/>
+      <!-- desk -->
+      <rect y="170" width="730" height="70" fill="#fde68a"/>
+      <!-- laptop -->
+      <g transform="translate(420,80)">
+        <rect width="220" height="140" rx="6" fill="#1f2937"/>
+        <rect x="6" y="6" width="208" height="118" rx="3" fill="#e5e7eb"/>
+        <rect x="14" y="14" width="120" height="14" rx="2" fill="#9ca3af"/>
+        <rect x="14" y="36" width="180" height="6" rx="1" fill="#cbd5e1"/>
+        <rect x="14" y="48" width="160" height="6" rx="1" fill="#cbd5e1"/>
+        <rect x="14" y="60" width="140" height="6" rx="1" fill="#cbd5e1"/>
+        <!-- chart bars -->
+        <rect x="14" y="76" width="20" height="36" fill="#facc15"/>
+        <rect x="40" y="84" width="20" height="28" fill="#fbbf24"/>
+        <rect x="66" y="68" width="20" height="44" fill="#f59e0b"/>
+        <rect x="92" y="80" width="20" height="32" fill="#facc15"/>
+        <rect x="118" y="60" width="20" height="52" fill="#d97706"/>
+        <rect x="144" y="74" width="20" height="38" fill="#facc15"/>
+        <rect x="170" y="56" width="20" height="56" fill="#f59e0b"/>
+        <rect x="-10" y="140" width="240" height="6" rx="2" fill="#1f2937"/>
+      </g>
+      <!-- folder / binder -->
+      <g transform="translate(60,80)">
+        <rect width="180" height="140" rx="4" fill="#1f2937"/>
+        <rect x="10" y="20" width="160" height="100" rx="2" fill="#ffffff"/>
+        <g stroke="#0f172a" stroke-width="6" fill="none">
+          <path d="M10 50 L170 50"/>
+          <path d="M10 80 L170 80"/>
+        </g>
+        <rect x="40" y="14" width="100" height="6" fill="#facc15"/>
+      </g>
+      <!-- pen + glasses on desk -->
+      <g transform="translate(260,180)">
+        <rect width="120" height="6" rx="2" fill="#0f172a"/>
+        <path d="M120 0 L120 6 L132 3 Z" fill="#0f172a"/>
+      </g>
+      <!-- calculator small -->
+      <g transform="translate(270,90)">
+        <rect width="120" height="100" rx="6" fill="#0f172a"/>
+        <rect x="8" y="8" width="104" height="22" rx="3" fill="#1e293b"/>
+        <text x="106" y="24" font-size="14" font-weight="700" fill="#22d3ee" text-anchor="end">15,200</text>
+        <g fill="#475569">
+          <rect x="8" y="36" width="22" height="14" rx="2"/>
+          <rect x="34" y="36" width="22" height="14" rx="2"/>
+          <rect x="60" y="36" width="22" height="14" rx="2"/>
+          <rect x="86" y="36" width="22" height="14" rx="2"/>
+          <rect x="8" y="54" width="22" height="14" rx="2"/>
+          <rect x="34" y="54" width="22" height="14" rx="2"/>
+          <rect x="60" y="54" width="22" height="14" rx="2"/>
+          <rect x="86" y="54" width="22" height="14" rx="2" fill="#facc15"/>
+          <rect x="8" y="72" width="22" height="14" rx="2"/>
+          <rect x="34" y="72" width="22" height="14" rx="2"/>
+          <rect x="60" y="72" width="22" height="14" rx="2"/>
+          <rect x="86" y="72" width="22" height="14" rx="2" fill="#facc15"/>
+        </g>
+      </g>
+    </g>
+
+    <text x="36" y="280" font-size="22" font-weight="700" fill="#0f172a">სასესხო პროდუქტები</text>
+    <text x="36" y="312" font-size="14" fill="#6b7280">იხილეთ ინფორმაცია სალომბარდე და მცირე ბიზნეს</text>
+    <text x="36" y="332" font-size="14" fill="#6b7280">სესხების შესახებ.</text>
+    <text x="36" y="362" font-size="14" font-weight="700" fill="#d97706">გაიგე მეტი  →</text>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="60" y1="1020" x2="1540" y2="1020" stroke="#e5e7eb"/>
+
+  <g transform="translate(60,1054)">
+    <text font-size="18" font-weight="800" fill="#0f172a">კრედიტსერვისი +</text>
+    <text y="32" font-size="12" fill="#6b7280">თანამშრომლობის არსი</text>
+    <text y="50" font-size="12" fill="#6b7280">სამართლიანშია</text>
+
+    <text x="320" font-size="13" font-weight="700" fill="#0f172a">კომპანიის შესახებ</text>
+    <text x="320" y="32" font-size="12" fill="#6b7280">მენეჯმენტი</text>
+    <text x="320" y="50" font-size="12" fill="#6b7280">კომპანიის ისტორია</text>
+    <text x="320" y="68" font-size="12" fill="#6b7280">სიახლეები</text>
+
+    <text x="680" font-size="13" font-weight="700" fill="#0f172a">ფინანსური ანგარიშგება</text>
+    <text x="680" y="32" font-size="12" fill="#6b7280">წლიური აუდიტი</text>
+    <text x="680" y="50" font-size="12" fill="#6b7280">კვარტალური ანგარიში</text>
+
+    <text x="1100" font-size="13" font-weight="700" fill="#0f172a">კონტაქტი</text>
+    <text x="1100" y="32" font-size="12" fill="#6b7280">+995 595 120 120</text>
+    <text x="1100" y="50" font-size="12" fill="#6b7280">info@creditservice.ge</text>
+    <text x="1100" y="68" font-size="12" fill="#6b7280">პეკინის გამზ. 33ა</text>
+  </g>
+</svg>

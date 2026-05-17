@@ -39,10 +39,9 @@ export const dict: Record<Lang, DictShape> = {
       title: "Recent projects",
       view: "View case",
       items: [
-        { t: "Skyline Bookings", c: "Hospitality · Booking", tag: "2025" },
-        { t: "Lari Pay", c: "Fintech · Payments", tag: "2025" },
-        { t: "Verra Market", c: "E-commerce · Headless", tag: "2024" },
-        { t: "Reserva", c: "Reservations · SaaS", tag: "2024" },
+        { t: "Cafeterio", c: "Catering · Mobile app", tag: "2025" },
+        { t: "Cafeter.io", c: "Catering · Web platform", tag: "2025" },
+        { t: "CreditService +", c: "Microfinance · Web platform", tag: "2024" },
       ],
     },
     about: {
@@ -94,10 +93,9 @@ export const dict: Record<Lang, DictShape> = {
       title: "ბოლო პროექტები",
       view: "ნახე ქეისი",
       items: [
-        { t: "Skyline Bookings", c: "სასტუმრო · ჯავშანი", tag: "2025" },
-        { t: "Lari Pay", c: "ფინტექი · გადახდები", tag: "2025" },
-        { t: "Verra Market", c: "ე-კომერცია · Headless", tag: "2024" },
-        { t: "Reserva", c: "რეზერვაცია · SaaS", tag: "2024" },
+        { t: "Cafeterio", c: "კეთერინგი · მობილური აპი", tag: "2025" },
+        { t: "Cafeter.io", c: "კეთერინგი · ვებ პლატფორმა", tag: "2025" },
+        { t: "კრედიტსერვისი +", c: "მიკროსაფინანსო · ვებ პლატფორმა", tag: "2024" },
       ],
     },
     about: {

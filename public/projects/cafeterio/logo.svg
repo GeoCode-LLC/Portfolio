@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="44" fill="#22c55e"/>
+  <!-- The "C" -->
+  <path d="M140 60 a40 40 0 1 0 0 80" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+  <!-- Fork inside the C -->
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none">
+    <!-- shaft -->
+    <path d="M104 110 V146"/>
+    <!-- 3 tines + neck -->
+    <path d="M88 78 V104 a4 4 0 0 0 4 4 H116 a4 4 0 0 0 4 -4 V78"/>
+    <path d="M104 78 V104"/>
+  </g>
+</svg>

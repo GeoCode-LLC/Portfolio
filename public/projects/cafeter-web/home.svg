@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -56 1600 1256" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <!-- Browser chrome -->
+  <rect x="0" y="-56" width="1600" height="56" fill="#e5e7eb"/>
+  <circle cx="28" cy="-28" r="8" fill="#ef4444"/>
+  <circle cx="54" cy="-28" r="8" fill="#fbbf24"/>
+  <circle cx="80" cy="-28" r="8" fill="#22c55e"/>
+  <rect x="480" y="-42" width="640" height="28" rx="14" fill="#ffffff"/>
+  <g transform="translate(508,-32)" stroke="#6b7280" stroke-width="1.4" fill="none">
+    <path d="M2 6 V4 a3 3 0 0 1 6 0 V6 M0 6 H10 V12 H0 Z"/>
+  </g>
+  <text x="800" y="-23" font-size="13" fill="#6b7280" text-anchor="middle">cafeter.io</text>
+  <line x1="0" y1="0" x2="1600" y2="0" stroke="#d1d5db"/>
+
+  <!-- Page bg -->
+  <rect width="1600" height="1200" fill="#ffffff"/>
+
+  <!-- ============ TOP NAV ============ -->
+  <rect x="0" y="0" width="1600" height="80" fill="#ffffff"/>
+  <line x1="0" y1="80" x2="1600" y2="80" stroke="#e5e7eb"/>
+
+  <g transform="translate(60,22)">
+    <rect width="40" height="40" rx="10" fill="#22c55e"/>
+    <path d="M30 20 a12 12 0 1 0 -12 12" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M20 16 v10 M17 16 v4 M23 16 v4 M20 26 v5" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="116" y="42" font-size="20" font-weight="800" fill="#0f172a">CAFETER.IO</text>
+  <text x="116" y="62" font-size="10" font-weight="700" fill="#9ca3af" letter-spacing="2">CATERING PLATFORM</text>
+
+  <text x="370" y="50" font-size="15" font-weight="600" fill="#0f172a">Services</text>
+  <path d="M438 44 l6 6 l6 -6" stroke="#0f172a" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(1310,22)">
+    <rect width="58" height="38" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="18" y="25" font-size="13" font-weight="700" fill="#0f172a">GB</text>
+    <path d="M38 17 l5 5 l5 -5" stroke="#0f172a" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(1380,22)">
+    <rect width="160" height="38" rx="10" fill="#16a34a"/>
+    <text x="68" y="25" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Office Lunch</text>
+    <path d="M138 14 l8 5 l-8 5" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ============ HERO LEFT TEXT ============ -->
+  <text x="60" y="280" font-size="62" font-weight="800" fill="#0f172a">Order Catering</text>
+  <text x="60" y="356" font-size="62" font-weight="800" fill="#16a34a">For Every Occasion</text>
+
+  <text x="60" y="426" font-size="18" fill="#6b7280">Browse local caterers, choose packages, and order</text>
+  <text x="60" y="454" font-size="18" fill="#6b7280">— all in one place. From corporate lunches to</text>
+  <text x="60" y="482" font-size="18" fill="#6b7280">weddings, we've got you covered.</text>
+
+  <text x="60" y="558" font-size="17" font-weight="700" fill="#16a34a">Explore Office Lunch  →</text>
+
+  <!-- chips: Free to use + Vetted providers -->
+  <g transform="translate(60,608)">
+    <circle cx="11" cy="11" r="11" fill="#dcfce7"/>
+    <path d="M6 11 l4 4 l8 -8" stroke="#16a34a" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="32" y="17" font-size="14" fill="#0f172a">Free to use</text>
+  </g>
+  <g transform="translate(190,608)">
+    <circle cx="11" cy="11" r="11" fill="#dcfce7"/>
+    <path d="M6 11 l4 4 l8 -8" stroke="#16a34a" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="32" y="17" font-size="14" fill="#0f172a">Vetted providers</text>
+  </g>
+
+  <!-- ============ HERO RIGHT — Catering food spread illustration ============ -->
+  <g transform="translate(820,100)">
+    <!-- backdrop tint -->
+    <rect width="720" height="700" rx="24" fill="#1f2a23"/>
+
+    <!-- Sandwich tray (top-left) -->
+    <g transform="translate(40,40)">
+      <rect width="160" height="200" rx="10" fill="#8b6f47"/>
+      <rect x="6" y="6" width="148" height="188" rx="6" fill="#a78a5b"/>
+      <!-- sandwich halves stacked -->
+      <g transform="translate(14,14)">
+        <rect width="60" height="36" rx="3" fill="#f1c889"/>
+        <rect y="6" width="60" height="6" fill="#16a34a"/>
+        <rect y="18" width="60" height="4" fill="#dc2626"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+      <g transform="translate(78,14)">
+        <rect width="60" height="36" rx="3" fill="#f1c889"/>
+        <rect y="6" width="60" height="6" fill="#16a34a"/>
+        <rect y="18" width="60" height="4" fill="#dc2626"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+      <g transform="translate(14,60)">
+        <rect width="60" height="36" rx="3" fill="#e0b06f"/>
+        <rect y="8" width="60" height="5" fill="#16a34a"/>
+        <rect y="18" width="60" height="4" fill="#92400e"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+      <g transform="translate(78,60)">
+        <rect width="60" height="36" rx="3" fill="#e0b06f"/>
+        <rect y="8" width="60" height="5" fill="#16a34a"/>
+        <rect y="18" width="60" height="4" fill="#92400e"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+      <g transform="translate(14,106)">
+        <rect width="60" height="36" rx="3" fill="#f1c889"/>
+        <rect y="6" width="60" height="6" fill="#22c55e"/>
+        <rect y="18" width="60" height="4" fill="#fbbf24"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+      <g transform="translate(78,106)">
+        <rect width="60" height="36" rx="3" fill="#f1c889"/>
+        <rect y="6" width="60" height="6" fill="#22c55e"/>
+        <rect y="18" width="60" height="4" fill="#fbbf24"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+      <g transform="translate(14,152)">
+        <rect width="60" height="36" rx="3" fill="#e0b06f"/>
+        <rect y="8" width="60" height="6" fill="#dc2626"/>
+        <rect y="20" width="60" height="5" fill="#16a34a"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+      <g transform="translate(78,152)">
+        <rect width="60" height="36" rx="3" fill="#e0b06f"/>
+        <rect y="8" width="60" height="6" fill="#dc2626"/>
+        <rect y="20" width="60" height="5" fill="#16a34a"/>
+        <rect y="28" width="60" height="6" fill="#fef3c7"/>
+      </g>
+    </g>
+
+    <!-- Burritos tray (top-right) -->
+    <g transform="translate(440,40)">
+      <rect width="240" height="200" rx="10" fill="#8b6f47"/>
+      <rect x="6" y="6" width="228" height="188" rx="6" fill="#a78a5b"/>
+      <!-- burritos wrapped in white paper -->
+      <g>
+        <ellipse cx="50" cy="56" rx="40" ry="18" fill="#fafafa"/>
+        <path d="M16 50 q34 -16 68 0 q0 18 -34 22 q-34 -4 -34 -22 z" fill="#e7e5e4"/>
+        <path d="M30 56 q20 -8 40 0" stroke="#a8a29e" stroke-width="1.4" fill="none"/>
+        <path d="M40 56 q14 -4 28 0" stroke="#a8a29e" stroke-width="1.4" fill="none"/>
+        <ellipse cx="50" cy="36" rx="24" ry="6" fill="#d97706"/>
+        <circle cx="42" cy="32" r="3" fill="#dc2626"/>
+        <circle cx="50" cy="34" r="3" fill="#16a34a"/>
+        <circle cx="58" cy="32" r="3" fill="#fbbf24"/>
+      </g>
+      <g transform="translate(106,0)">
+        <ellipse cx="50" cy="56" rx="40" ry="18" fill="#fafafa"/>
+        <path d="M16 50 q34 -16 68 0 q0 18 -34 22 q-34 -4 -34 -22 z" fill="#e7e5e4"/>
+        <path d="M30 56 q20 -8 40 0" stroke="#a8a29e" stroke-width="1.4" fill="none"/>
+        <ellipse cx="50" cy="36" rx="24" ry="6" fill="#d97706"/>
+        <circle cx="44" cy="34" r="3" fill="#16a34a"/>
+        <circle cx="56" cy="32" r="3" fill="#dc2626"/>
+      </g>
+      <g transform="translate(0,98)">
+        <ellipse cx="50" cy="56" rx="40" ry="18" fill="#fafafa"/>
+        <path d="M16 50 q34 -16 68 0 q0 18 -34 22 q-34 -4 -34 -22 z" fill="#e7e5e4"/>
+        <path d="M30 56 q20 -8 40 0" stroke="#a8a29e" stroke-width="1.4" fill="none"/>
+        <ellipse cx="50" cy="36" rx="24" ry="6" fill="#d97706"/>
+        <circle cx="42" cy="34" r="3" fill="#16a34a"/>
+        <circle cx="50" cy="32" r="3" fill="#fbbf24"/>
+        <circle cx="58" cy="34" r="3" fill="#dc2626"/>
+      </g>
+      <g transform="translate(106,98)">
+        <ellipse cx="50" cy="56" rx="40" ry="18" fill="#fafafa"/>
+        <path d="M16 50 q34 -16 68 0 q0 18 -34 22 q-34 -4 -34 -22 z" fill="#e7e5e4"/>
+        <path d="M30 56 q20 -8 40 0" stroke="#a8a29e" stroke-width="1.4" fill="none"/>
+        <ellipse cx="50" cy="36" rx="24" ry="6" fill="#d97706"/>
+        <circle cx="44" cy="32" r="3" fill="#dc2626"/>
+        <circle cx="56" cy="34" r="3" fill="#16a34a"/>
+      </g>
+    </g>
+
+    <!-- Salad bowl (centre) -->
+    <g transform="translate(240,280)">
+      <ellipse cx="120" cy="120" rx="120" ry="90" fill="#ffffff" stroke="#e5e7eb" stroke-width="3"/>
+      <ellipse cx="120" cy="116" rx="118" ry="86" fill="#fafafa"/>
+      <!-- greens base -->
+      <ellipse cx="120" cy="116" rx="112" ry="78" fill="#16a34a"/>
+      <ellipse cx="120" cy="116" rx="112" ry="78" fill="#22c55e" opacity="0.7"/>
+      <!-- chopped vegetables -->
+      <circle cx="60" cy="100" r="14" fill="#dc2626"/>
+      <circle cx="90" cy="88" r="13" fill="#ef4444"/>
+      <circle cx="130" cy="84" r="14" fill="#dc2626"/>
+      <circle cx="170" cy="92" r="13" fill="#ef4444"/>
+      <circle cx="80" cy="124" r="12" fill="#dc2626"/>
+      <circle cx="140" cy="128" r="14" fill="#ef4444"/>
+      <circle cx="180" cy="120" r="12" fill="#dc2626"/>
+      <!-- cucumber slices -->
+      <circle cx="60" cy="140" r="10" fill="#bbf7d0"/>
+      <circle cx="60" cy="140" r="6" fill="#86efac"/>
+      <circle cx="110" cy="148" r="10" fill="#bbf7d0"/>
+      <circle cx="110" cy="148" r="6" fill="#86efac"/>
+      <circle cx="160" cy="146" r="10" fill="#bbf7d0"/>
+      <circle cx="160" cy="146" r="6" fill="#86efac"/>
+      <!-- yellow peppers -->
+      <rect x="48" y="78" width="14" height="14" rx="2" fill="#fde047" transform="rotate(20 55 85)"/>
+      <rect x="148" y="98" width="14" height="14" rx="2" fill="#fde047" transform="rotate(-30 155 105)"/>
+      <rect x="100" y="68" width="14" height="14" rx="2" fill="#fde047" transform="rotate(15 107 75)"/>
+      <!-- feta cubes -->
+      <rect x="118" y="108" width="11" height="11" rx="1.5" fill="#fafafa" stroke="#94a3b8" stroke-width="0.8"/>
+      <rect x="74" y="118" width="11" height="11" rx="1.5" fill="#fafafa" stroke="#94a3b8" stroke-width="0.8"/>
+      <rect x="156" y="106" width="11" height="11" rx="1.5" fill="#fafafa" stroke="#94a3b8" stroke-width="0.8"/>
+      <!-- olives -->
+      <ellipse cx="120" cy="100" rx="5" ry="6" fill="#1e293b"/>
+      <ellipse cx="160" cy="130" rx="5" ry="6" fill="#1e293b"/>
+      <ellipse cx="80" cy="160" rx="5" ry="6" fill="#1e293b"/>
+    </g>
+
+    <!-- Fruit box (bottom-right) -->
+    <g transform="translate(460,300)">
+      <rect width="220" height="160" rx="10" fill="#8b6f47"/>
+      <rect x="6" y="6" width="208" height="148" rx="6" fill="#a78a5b"/>
+      <!-- strawberries -->
+      <circle cx="34" cy="40" r="14" fill="#dc2626"/>
+      <circle cx="34" cy="38" r="14" fill="#ef4444"/>
+      <path d="M30 26 q4 -6 8 0" stroke="#16a34a" stroke-width="2" fill="#22c55e"/>
+      <circle cx="58" cy="50" r="13" fill="#dc2626"/>
+      <circle cx="58" cy="48" r="13" fill="#ef4444"/>
+      <path d="M54 38 q4 -6 8 0" stroke="#16a34a" stroke-width="2" fill="#22c55e"/>
+      <!-- pineapple cubes -->
+      <rect x="80" y="32" width="14" height="14" rx="2" fill="#fde047"/>
+      <rect x="98" y="40" width="14" height="14" rx="2" fill="#fde047"/>
+      <rect x="116" y="32" width="14" height="14" rx="2" fill="#fbbf24"/>
+      <rect x="86" y="50" width="14" height="14" rx="2" fill="#fde047"/>
+      <rect x="104" y="60" width="14" height="14" rx="2" fill="#fbbf24"/>
+      <!-- grapes -->
+      <g transform="translate(140,30)">
+        <circle cx="6" cy="6" r="6" fill="#a855f7"/>
+        <circle cx="18" cy="6" r="6" fill="#9333ea"/>
+        <circle cx="12" cy="16" r="6" fill="#a855f7"/>
+        <circle cx="24" cy="16" r="6" fill="#9333ea"/>
+        <circle cx="18" cy="26" r="6" fill="#a855f7"/>
+        <circle cx="30" cy="20" r="6" fill="#7e22ce"/>
+      </g>
+      <!-- melon -->
+      <circle cx="190" cy="50" r="14" fill="#84cc16"/>
+      <circle cx="190" cy="48" r="12" fill="#a3e635"/>
+      <!-- blueberries -->
+      <g transform="translate(30,90)" fill="#1e3a8a">
+        <circle cx="0" cy="0" r="5"/><circle cx="10" cy="3" r="5"/><circle cx="18" cy="0" r="5"/>
+        <circle cx="6" cy="12" r="5"/><circle cx="16" cy="13" r="5"/><circle cx="24" cy="9" r="5"/>
+        <circle cx="2" cy="22" r="5"/><circle cx="12" cy="24" r="5"/><circle cx="22" cy="22" r="5"/>
+      </g>
+      <!-- mango cubes -->
+      <rect x="70" y="90" width="14" height="14" rx="2" fill="#fb923c"/>
+      <rect x="88" y="98" width="14" height="14" rx="2" fill="#fb923c"/>
+      <rect x="78" y="112" width="14" height="14" rx="2" fill="#f97316"/>
+      <rect x="96" y="116" width="14" height="14" rx="2" fill="#fb923c"/>
+      <!-- watermelon triangle -->
+      <path d="M130 96 L168 96 L150 130 Z" fill="#dc2626"/>
+      <path d="M130 96 L168 96 L164 102 L134 102 Z" fill="#16a34a"/>
+      <circle cx="146" cy="110" r="2" fill="#1e293b"/>
+      <circle cx="152" cy="118" r="2" fill="#1e293b"/>
+      <circle cx="158" cy="106" r="2" fill="#1e293b"/>
+      <!-- kiwi slice -->
+      <circle cx="200" cy="110" r="14" fill="#84cc16"/>
+      <circle cx="200" cy="110" r="11" fill="#bef264"/>
+      <circle cx="200" cy="110" r="6" fill="#ffffff"/>
+      <g transform="translate(200,110)" fill="#1e293b">
+        <circle cx="0" cy="-7" r="1.4"/>
+        <circle cx="5" cy="-3" r="1.4"/>
+        <circle cx="6" cy="3" r="1.4"/>
+        <circle cx="0" cy="7" r="1.4"/>
+        <circle cx="-5" cy="-3" r="1.4"/>
+        <circle cx="-6" cy="3" r="1.4"/>
+        <circle cx="3" cy="-6" r="1.4"/>
+      </g>
+    </g>
+
+    <!-- Juice bottles (top-centre) -->
+    <g transform="translate(220,40)">
+      <rect width="32" height="80" rx="6" fill="#fb923c"/>
+      <rect width="32" height="6" rx="3" fill="#7c2d12"/>
+      <rect x="6" y="14" width="20" height="6" fill="#ffffff" opacity="0.85"/>
+      <rect x="42" width="32" height="80" rx="6" fill="#22c55e"/>
+      <rect x="42" width="32" height="6" rx="3" fill="#14532d"/>
+      <rect x="48" y="14" width="20" height="6" fill="#ffffff" opacity="0.85"/>
+      <rect x="84" width="32" height="80" rx="6" fill="#dc2626"/>
+      <rect x="84" width="32" height="6" rx="3" fill="#7f1d1d"/>
+      <rect x="90" y="14" width="20" height="6" fill="#ffffff" opacity="0.85"/>
+    </g>
+
+    <!-- Cookies tray (bottom-left) -->
+    <g transform="translate(40,460)">
+      <rect width="200" height="180" rx="10" fill="#8b6f47"/>
+      <rect x="6" y="6" width="188" height="168" rx="6" fill="#a78a5b"/>
+      <g fill="#92400e">
+        <circle cx="38" cy="42" r="22"/>
+        <circle cx="86" cy="38" r="22"/>
+        <circle cx="134" cy="42" r="22"/>
+        <circle cx="38" cy="92" r="22"/>
+        <circle cx="86" cy="88" r="22"/>
+        <circle cx="134" cy="92" r="22"/>
+        <circle cx="38" cy="142" r="22"/>
+        <circle cx="86" cy="138" r="22"/>
+        <circle cx="134" cy="142" r="22"/>
+      </g>
+      <g fill="#451a03">
+        <circle cx="32" cy="36" r="2"/><circle cx="44" cy="42" r="2"/><circle cx="38" cy="50" r="2"/>
+        <circle cx="80" cy="32" r="2"/><circle cx="92" cy="40" r="2"/><circle cx="86" cy="46" r="2"/>
+        <circle cx="128" cy="36" r="2"/><circle cx="138" cy="42" r="2"/><circle cx="134" cy="52" r="2"/>
+        <circle cx="32" cy="86" r="2"/><circle cx="44" cy="92" r="2"/><circle cx="38" cy="102" r="2"/>
+        <circle cx="80" cy="82" r="2"/><circle cx="92" cy="90" r="2"/><circle cx="86" cy="96" r="2"/>
+        <circle cx="128" cy="88" r="2"/><circle cx="138" cy="94" r="2"/><circle cx="134" cy="102" r="2"/>
+        <circle cx="32" cy="136" r="2"/><circle cx="44" cy="146" r="2"/><circle cx="38" cy="150" r="2"/>
+        <circle cx="80" cy="132" r="2"/><circle cx="92" cy="142" r="2"/><circle cx="86" cy="148" r="2"/>
+        <circle cx="128" cy="138" r="2"/><circle cx="138" cy="146" r="2"/><circle cx="134" cy="152" r="2"/>
+      </g>
+    </g>
+
+    <!-- Pasta bowl (bottom-centre-right) -->
+    <g transform="translate(260,500)">
+      <ellipse cx="100" cy="80" rx="100" ry="60" fill="#ffffff" stroke="#e5e7eb" stroke-width="3"/>
+      <ellipse cx="100" cy="76" rx="98" ry="56" fill="#fafafa"/>
+      <!-- pasta -->
+      <path d="M30 80 q70 -34 140 0" stroke="#fcd34d" stroke-width="8" fill="none"/>
+      <path d="M40 80 q60 -28 120 0" stroke="#fbbf24" stroke-width="8" fill="none"/>
+      <path d="M40 92 q60 -16 120 0" stroke="#fcd34d" stroke-width="6" fill="none"/>
+      <path d="M50 100 q50 -8 100 0" stroke="#fbbf24" stroke-width="6" fill="none"/>
+      <!-- pesto green -->
+      <ellipse cx="60" cy="74" rx="10" ry="4" fill="#16a34a" opacity="0.7"/>
+      <ellipse cx="140" cy="74" rx="10" ry="4" fill="#16a34a" opacity="0.7"/>
+      <ellipse cx="100" cy="88" rx="12" ry="4" fill="#16a34a" opacity="0.5"/>
+      <!-- tomatoes -->
+      <circle cx="80" cy="64" r="6" fill="#dc2626"/>
+      <circle cx="120" cy="62" r="6" fill="#dc2626"/>
+      <circle cx="100" cy="70" r="5" fill="#ef4444"/>
+      <!-- parmesan -->
+      <rect x="70" y="56" width="6" height="6" rx="0.8" fill="#fffbeb" stroke="#fde68a" stroke-width="0.5"/>
+      <rect x="130" y="60" width="6" height="6" rx="0.8" fill="#fffbeb" stroke="#fde68a" stroke-width="0.5"/>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="60" y1="900" x2="1540" y2="900" stroke="#e5e7eb"/>
+
+  <!-- Stats row -->
+  <g transform="translate(0,940)">
+    <text x="270" y="60" font-size="60" font-weight="800" fill="#0f172a" text-anchor="middle">50</text>
+    <text x="270" y="120" font-size="14" fill="#6b7280" text-anchor="middle">Caterers</text>
+  </g>
+  <g transform="translate(0,940)">
+    <text x="690" y="60" font-size="60" font-weight="800" fill="#0f172a" text-anchor="middle">12K</text>
+    <text x="690" y="120" font-size="14" fill="#6b7280" text-anchor="middle">Orders</text>
+  </g>
+  <g transform="translate(0,940)">
+    <text x="1110" y="60" font-size="60" font-weight="800" fill="#16a34a" text-anchor="middle">4.8</text>
+    <text x="1110" y="120" font-size="14" fill="#6b7280" text-anchor="middle">Rating</text>
+  </g>
+  <g transform="translate(0,940)">
+    <text x="1410" y="60" font-size="60" font-weight="800" fill="#0f172a" text-anchor="middle">98%</text>
+    <text x="1410" y="120" font-size="14" fill="#6b7280" text-anchor="middle">Satisfaction</text>
+  </g>
+</svg>

@@ -1,0 +1,541 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -56 1600 1256" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <!-- Browser chrome -->
+  <rect x="0" y="-56" width="1600" height="56" fill="#e5e7eb"/>
+  <circle cx="28" cy="-28" r="8" fill="#ef4444"/>
+  <circle cx="54" cy="-28" r="8" fill="#fbbf24"/>
+  <circle cx="80" cy="-28" r="8" fill="#22c55e"/>
+  <rect x="480" y="-42" width="640" height="28" rx="14" fill="#ffffff"/>
+  <g transform="translate(508,-32)" stroke="#6b7280" stroke-width="1.4" fill="none">
+    <path d="M2 6 V4 a3 3 0 0 1 6 0 V6 M0 6 H10 V12 H0 Z"/>
+  </g>
+  <text x="800" y="-23" font-size="13" fill="#6b7280" text-anchor="middle">admin.cafeter.io</text>
+  <line x1="0" y1="0" x2="1600" y2="0" stroke="#d1d5db"/>
+
+  <!-- Page content -->
+  <rect width="1600" height="1200" fill="#f8fafc"/>
+
+  <!-- ============ SIDEBAR ============ -->
+  <rect x="0" y="0" width="230" height="1200" fill="#ffffff"/>
+  <line x1="230" y1="0" x2="230" y2="1200" stroke="#e5e7eb"/>
+
+  <!-- Logo + brand -->
+  <g transform="translate(20,22)">
+    <rect width="34" height="34" rx="8" fill="#22c55e"/>
+    <path d="M26 17 a10 10 0 1 0 -10 10" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M17 14 v8 M14 14 v3 M20 14 v3 M17 22 v4" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <text x="64" y="44" font-size="14" font-weight="800" fill="#0f172a">CAFETER.IO</text>
+  <!-- Collapse button -->
+  <circle cx="200" cy="40" r="13" fill="#f3f4f6"/>
+  <path d="M204 34 l-6 6 l6 6" stroke="#0f172a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <line x1="20" y1="80" x2="210" y2="80" stroke="#f1f5f9"/>
+
+  <!-- Nav: Kitchens -->
+  <g transform="translate(16,100)">
+    <g transform="translate(14,8)" stroke="#475569" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 14 a10 10 0 0 1 20 0 v6 H2 Z"/>
+      <path d="M2 16 H22"/>
+      <path d="M8 10 v-3 M16 10 v-3 M12 8 v-3"/>
+    </g>
+    <text x="50" y="24" font-size="14" font-weight="600" fill="#475569">სამზარეულოები</text>
+  </g>
+
+  <!-- Nav: Office Lunch (expanded, active group) -->
+  <g transform="translate(16,148)">
+    <rect width="198" height="40" rx="10" fill="#ecfdf5"/>
+    <g transform="translate(14,12)" stroke="#16a34a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 10 q9 -4 18 0 q-3 9 -9 9 q-6 0 -9 -9z"/>
+      <path d="M3 14 H21"/>
+    </g>
+    <text x="50" y="26" font-size="14" font-weight="700" fill="#16a34a">ოფის ლანჩი</text>
+    <path d="M174 18 l5 5 l5 -5" stroke="#16a34a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 184 20.5)"/>
+  </g>
+
+  <!-- Sub-items (indented) -->
+  <g transform="translate(32,200)">
+    <!-- Active: მთავარი -->
+    <rect width="182" height="36" rx="8" fill="#f1f5f9"/>
+    <g transform="translate(14,10)" stroke="#0f172a" stroke-width="1.6" fill="none">
+      <rect x="0" y="0" width="7" height="7" rx="1"/>
+      <rect x="9" y="0" width="7" height="7" rx="1"/>
+      <rect x="0" y="9" width="7" height="7" rx="1"/>
+      <rect x="9" y="9" width="7" height="7" rx="1"/>
+    </g>
+    <text x="42" y="23" font-size="14" font-weight="700" fill="#0f172a">მთავარი</text>
+  </g>
+
+  <g transform="translate(32,244)">
+    <g transform="translate(14,10)" stroke="#6b7280" stroke-width="1.6" fill="none">
+      <rect x="0" y="0" width="16" height="16" rx="2"/>
+      <path d="M0 6 H16 M6 0 V16"/>
+    </g>
+    <text x="42" y="23" font-size="14" fill="#6b7280">კატეგორიები</text>
+  </g>
+
+  <g transform="translate(32,284)">
+    <g transform="translate(14,10)" stroke="#6b7280" stroke-width="1.6" fill="none">
+      <path d="M2 14 q6 -6 12 0"/>
+      <path d="M0 14 H16"/>
+      <path d="M5 8 a3 3 0 0 1 6 0"/>
+    </g>
+    <text x="42" y="23" font-size="14" fill="#6b7280">მენიუები</text>
+  </g>
+
+  <g transform="translate(32,324)">
+    <g transform="translate(14,10)" stroke="#6b7280" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <path d="M2 2 H14 V16 H2 Z"/>
+      <path d="M5 6 H11 M5 9 H11 M5 12 H9"/>
+    </g>
+    <text x="42" y="23" font-size="14" fill="#6b7280">შეკვეთები</text>
+  </g>
+
+  <g transform="translate(32,364)">
+    <g transform="translate(14,10)" stroke="#6b7280" stroke-width="1.6" fill="none">
+      <path d="M2 16 V4 h12 V16"/>
+      <path d="M5 8 H8 M5 11 H8 M11 8 H11.01 M11 11 H11.01"/>
+    </g>
+    <text x="42" y="23" font-size="14" fill="#6b7280">კლიენტები</text>
+  </g>
+
+  <g transform="translate(32,404)">
+    <g transform="translate(14,10)" stroke="#6b7280" stroke-width="1.6" fill="none">
+      <circle cx="8" cy="8" r="7"/>
+      <path d="M8 4 V8 L11 11" stroke-linecap="round"/>
+    </g>
+    <text x="42" y="23" font-size="14" fill="#6b7280">შეკვეთის მიღების დრო</text>
+  </g>
+
+  <g transform="translate(32,444)">
+    <g transform="translate(14,10)" stroke="#6b7280" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 13 V8 a5 5 0 0 1 10 0 V13 L14 15 H2 Z"/>
+      <path d="M6 15 a2 2 0 0 0 4 0"/>
+    </g>
+    <text x="42" y="23" font-size="14" fill="#6b7280">შეტყობინებები</text>
+  </g>
+
+  <!-- Reporting (collapsed group) -->
+  <g transform="translate(16,506)">
+    <g transform="translate(14,10)" stroke="#6b7280" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 16 V4 H16 V16 Z"/>
+      <path d="M5 12 V8 M9 12 V6 M13 12 V10"/>
+    </g>
+    <text x="50" y="24" font-size="14" font-weight="600" fill="#475569">რეპორტინგი</text>
+    <path d="M180 16 l5 5 l5 -5" stroke="#6b7280" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ============ TOP BAR ============ -->
+  <rect x="230" y="0" width="1370" height="80" fill="#ffffff"/>
+  <line x1="230" y1="80" x2="1600" y2="80" stroke="#e5e7eb"/>
+
+  <!-- Page title with 4-dot icon -->
+  <g transform="translate(258,28)">
+    <g stroke="#0f172a" stroke-width="1.8" fill="none">
+      <rect x="0" y="0" width="8" height="8" rx="1.2"/>
+      <rect x="11" y="0" width="8" height="8" rx="1.2"/>
+      <rect x="0" y="11" width="8" height="8" rx="1.2"/>
+      <rect x="11" y="11" width="8" height="8" rx="1.2"/>
+    </g>
+  </g>
+  <text x="296" y="52" font-size="20" font-weight="700" fill="#0f172a">მთავარი</text>
+
+  <!-- Right-side controls -->
+  <g transform="translate(1320,22)">
+    <rect width="62" height="38" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="20" y="25" font-size="13" font-weight="700" fill="#0f172a">GE</text>
+    <path d="M40 17 l5 5 l5 -5" stroke="#0f172a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(1394,22)">
+    <rect width="184" height="38" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <circle cx="22" cy="19" r="13" fill="#fbbf24"/>
+    <text x="22" y="24" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
+    <text x="44" y="17" font-size="12" font-weight="700" fill="#0f172a">ezolunch@gmail.com</text>
+    <text x="44" y="31" font-size="10" fill="#9ca3af">ProviderAdmin</text>
+    <path d="M168 17 l5 5 l5 -5" stroke="#0f172a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Banner action chips -->
+  <g transform="translate(1280,108)">
+    <rect width="160" height="40" rx="20" fill="#fef3c7" stroke="#fbbf24" stroke-width="1.2"/>
+    <circle cx="22" cy="20" r="6" fill="#f59e0b"/>
+    <text x="80" y="26" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">43 მოლოდინში</text>
+  </g>
+  <g transform="translate(1452,108)">
+    <rect width="138" height="40" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+    <g transform="translate(20,12)" stroke="#0f172a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 6 a6 6 0 0 1 12 0"/>
+      <path d="M14 0 v6 h-6"/>
+      <path d="M14 12 a6 6 0 0 1 -12 0"/>
+      <path d="M2 18 v-6 h6"/>
+    </g>
+    <text x="80" y="26" font-size="13" font-weight="600" fill="#0f172a" text-anchor="middle">განახლება</text>
+  </g>
+
+  <!-- ============ STATS ROW ============ -->
+  <g transform="translate(258,180)">
+    <!-- Card 1: Today's orders (green border) -->
+    <g>
+      <rect width="430" height="172" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+      <rect width="430" height="6" rx="3" fill="#22c55e"/>
+      <text x="24" y="44" font-size="13" fill="#6b7280">დღევანდელი შეკვეთები</text>
+      <text x="24" y="100" font-size="44" font-weight="800" fill="#0f172a">43</text>
+      <text x="24" y="148" font-size="13" font-weight="700" fill="#16a34a">ყველას ნახვა  →</text>
+      <!-- icon top-right -->
+      <g transform="translate(370,32)">
+        <rect width="40" height="40" rx="10" fill="#dcfce7"/>
+        <g transform="translate(11,10)" stroke="#16a34a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 6 H15 L13 18 H5 Z"/>
+          <path d="M6 6 V3 a3 3 0 0 1 6 0 V6"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 2: Most ordered (orange border) -->
+    <g transform="translate(450,0)">
+      <rect width="430" height="172" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+      <rect width="430" height="6" rx="3" fill="#f59e0b"/>
+      <text x="24" y="44" font-size="13" fill="#6b7280">ყველაზე შეკვეთილი</text>
+      <text x="24" y="98" font-size="28" font-weight="800" fill="#0f172a">კოკა-კოლა ზერო</text>
+      <g transform="translate(24,130)">
+        <path d="M0 14 l6 -6 l5 4 l8 -8" stroke="#16a34a" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 4 H20 V8" stroke="#16a34a" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text x="56" y="146" font-size="13" font-weight="700" fill="#16a34a">5 გაიყიდა</text>
+      <g transform="translate(370,32)">
+        <rect width="40" height="40" rx="10" fill="#ffedd5"/>
+        <g transform="translate(11,10)" stroke="#f59e0b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 16 l6 -8 l4 4 l8 -10"/>
+          <path d="M15 2 H20 V7"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 3: Today's revenue (purple border) -->
+    <g transform="translate(900,0)">
+      <rect width="442" height="172" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+      <rect width="442" height="6" rx="3" fill="#a855f7"/>
+      <text x="24" y="44" font-size="13" fill="#6b7280">დღევანდელი შემოსავალი</text>
+      <text x="24" y="100" font-size="40" font-weight="800" fill="#0f172a">773.00₾</text>
+      <text x="24" y="148" font-size="13" font-weight="700" fill="#a855f7">რეპორტების ნახვა  →</text>
+      <g transform="translate(382,32)">
+        <rect width="40" height="40" rx="10" fill="#f3e8ff"/>
+        <g transform="translate(10,11)" stroke="#a855f7" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="0" y="2" width="20" height="14" rx="2"/>
+          <path d="M14 9 H17"/>
+          <circle cx="15.5" cy="9" r="1.2" fill="#a855f7"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ ACTIVE ORDERS SECTION ============ -->
+  <g transform="translate(258,394)">
+    <g transform="translate(0,4)" stroke="#0f172a" stroke-width="1.8" fill="none">
+      <circle cx="10" cy="10" r="9"/>
+      <path d="M10 5 V10 L13 13" stroke-linecap="round"/>
+    </g>
+    <text x="30" y="20" font-size="20" font-weight="700" fill="#0f172a">აქტიური შეკვეთები</text>
+    <text x="1342" y="20" font-size="13" font-weight="700" fill="#16a34a" text-anchor="end">ყველა შეკვეთის მართვა  ›</text>
+  </g>
+
+  <!-- Order cards grid (3 cols x 2 rows) -->
+  <!-- Card 1: #89 Nika Kupatadze -->
+  <g transform="translate(258,432)">
+    <rect width="430" height="240" rx="12" fill="#fffbeb" stroke="#fde68a"/>
+    <rect width="6" height="240" rx="3" fill="#f59e0b"/>
+    <!-- Top row: pill + time + amount -->
+    <g transform="translate(22,18)">
+      <rect width="148" height="30" rx="15" fill="#fef3c7" stroke="#fde68a"/>
+      <g transform="translate(12,8)" stroke="#b45309" stroke-width="1.6" fill="none">
+        <circle cx="7" cy="7" r="6"/>
+        <path d="M7 3 V7 L10 9" stroke-linecap="round"/>
+      </g>
+      <text x="36" y="20" font-size="12" font-weight="700" fill="#b45309">მოსამზადებელი</text>
+    </g>
+    <g transform="translate(184,28)" stroke="#9ca3af" stroke-width="1.4" fill="none">
+      <circle cx="6" cy="6" r="5"/>
+      <path d="M6 3 V6 L8 8" stroke-linecap="round"/>
+    </g>
+    <text x="198" y="38" font-size="12" font-weight="600" fill="#6b7280">12:55 PM</text>
+    <text x="408" y="40" font-size="20" font-weight="800" fill="#0f172a" text-anchor="end">35.00₾</text>
+
+    <!-- Order id + customer -->
+    <text x="22" y="86" font-size="14" font-weight="700" fill="#9ca3af">#89</text>
+    <text x="56" y="86" font-size="16" font-weight="800" fill="#0f172a">Nika Kupatadze</text>
+    <text x="56" y="106" font-size="12" fill="#9ca3af">SmartSoft</text>
+    <text x="408" y="86" font-size="12" fill="#6b7280" text-anchor="end">2 items</text>
+
+    <line x1="22" y1="128" x2="408" y2="128" stroke="#fde68a"/>
+
+    <!-- Items -->
+    <text x="22" y="148" font-size="11" font-weight="600" fill="#9ca3af">ცხელი კერძი</text>
+    <g transform="translate(22,160)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ტალიატელე</text>
+      <text x="386" y="14" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">16.00₾</text>
+    </g>
+    <text x="22" y="200" font-size="11" font-weight="600" fill="#9ca3af">სენდვიჩები</text>
+    <g transform="translate(22,212)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ბურიტო</text>
+      <text x="386" y="14" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">19.00₾</text>
+    </g>
+  </g>
+
+  <!-- Card 2: #83 Vasil Keshelashvili -->
+  <g transform="translate(708,432)">
+    <rect width="430" height="240" rx="12" fill="#fffbeb" stroke="#fde68a"/>
+    <rect width="6" height="240" rx="3" fill="#f59e0b"/>
+    <g transform="translate(22,18)">
+      <rect width="148" height="30" rx="15" fill="#fef3c7" stroke="#fde68a"/>
+      <g transform="translate(12,8)" stroke="#b45309" stroke-width="1.6" fill="none">
+        <circle cx="7" cy="7" r="6"/>
+        <path d="M7 3 V7 L10 9" stroke-linecap="round"/>
+      </g>
+      <text x="36" y="20" font-size="12" font-weight="700" fill="#b45309">მოსამზადებელი</text>
+    </g>
+    <g transform="translate(184,28)" stroke="#9ca3af" stroke-width="1.4" fill="none">
+      <circle cx="6" cy="6" r="5"/>
+      <path d="M6 3 V6 L8 8" stroke-linecap="round"/>
+    </g>
+    <text x="198" y="38" font-size="12" font-weight="600" fill="#6b7280">01:03 PM</text>
+    <text x="408" y="40" font-size="20" font-weight="800" fill="#0f172a" text-anchor="end">19.00₾</text>
+
+    <text x="22" y="86" font-size="14" font-weight="700" fill="#9ca3af">#83</text>
+    <text x="56" y="86" font-size="16" font-weight="800" fill="#0f172a">Vasil Keshelashvili</text>
+    <text x="56" y="106" font-size="12" fill="#9ca3af">SmartSoft</text>
+    <text x="408" y="86" font-size="12" fill="#6b7280" text-anchor="end">1 item</text>
+
+    <line x1="22" y1="128" x2="408" y2="128" stroke="#fde68a"/>
+
+    <g transform="translate(22,150)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ბურიტო</text>
+      <text x="386" y="14" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">19.00₾</text>
+    </g>
+  </g>
+
+  <!-- Card 3: #127 Mariam Sharipashvili -->
+  <g transform="translate(1158,432)">
+    <rect width="184" height="240" rx="12" fill="#fffbeb" stroke="#fde68a"/>
+    <rect width="6" height="240" rx="3" fill="#f59e0b"/>
+    <g transform="translate(22,18)">
+      <rect width="148" height="30" rx="15" fill="#fef3c7" stroke="#fde68a"/>
+      <g transform="translate(12,8)" stroke="#b45309" stroke-width="1.6" fill="none">
+        <circle cx="7" cy="7" r="6"/>
+        <path d="M7 3 V7 L10 9" stroke-linecap="round"/>
+      </g>
+      <text x="36" y="20" font-size="12" font-weight="700" fill="#b45309">მოსამზადებელი</text>
+    </g>
+    <g transform="translate(22,56)" stroke="#9ca3af" stroke-width="1.4" fill="none">
+      <circle cx="6" cy="6" r="5"/>
+      <path d="M6 3 V6 L8 8" stroke-linecap="round"/>
+    </g>
+    <text x="36" y="66" font-size="12" font-weight="600" fill="#6b7280">01:09 PM</text>
+    <text x="162" y="66" font-size="18" font-weight="800" fill="#0f172a" text-anchor="end">19.00₾</text>
+
+    <text x="22" y="106" font-size="13" font-weight="700" fill="#9ca3af">#127</text>
+    <text x="22" y="128" font-size="14" font-weight="800" fill="#0f172a">Mariam</text>
+    <text x="22" y="146" font-size="14" font-weight="800" fill="#0f172a">Sharipashvili</text>
+    <text x="22" y="164" font-size="11" fill="#9ca3af">SmartSoft  ·  1 item</text>
+
+    <line x1="22" y1="184" x2="162" y2="184" stroke="#fde68a"/>
+
+    <g transform="translate(22,200)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ბურიტო</text>
+      <text x="140" y="14" font-size="12" font-weight="700" fill="#0f172a" text-anchor="end">19.00₾</text>
+    </g>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- Card 4: #124 Mariam Narimanidze -->
+  <g transform="translate(258,694)">
+    <rect width="430" height="240" rx="12" fill="#fffbeb" stroke="#fde68a"/>
+    <rect width="6" height="240" rx="3" fill="#f59e0b"/>
+    <g transform="translate(22,18)">
+      <rect width="148" height="30" rx="15" fill="#fef3c7" stroke="#fde68a"/>
+      <g transform="translate(12,8)" stroke="#b45309" stroke-width="1.6" fill="none">
+        <circle cx="7" cy="7" r="6"/>
+        <path d="M7 3 V7 L10 9" stroke-linecap="round"/>
+      </g>
+      <text x="36" y="20" font-size="12" font-weight="700" fill="#b45309">მოსამზადებელი</text>
+    </g>
+    <g transform="translate(184,28)" stroke="#9ca3af" stroke-width="1.4" fill="none">
+      <circle cx="6" cy="6" r="5"/>
+      <path d="M6 3 V6 L8 8" stroke-linecap="round"/>
+    </g>
+    <text x="198" y="38" font-size="12" font-weight="600" fill="#6b7280">01:10 PM</text>
+    <text x="408" y="40" font-size="20" font-weight="800" fill="#0f172a" text-anchor="end">43.00₾</text>
+
+    <text x="22" y="86" font-size="14" font-weight="700" fill="#9ca3af">#124</text>
+    <text x="60" y="86" font-size="16" font-weight="800" fill="#0f172a">Mariam Narimanidze</text>
+    <text x="60" y="106" font-size="12" fill="#9ca3af">SmartSoft</text>
+    <text x="408" y="86" font-size="12" fill="#6b7280" text-anchor="end">3 items</text>
+
+    <line x1="22" y1="128" x2="408" y2="128" stroke="#fde68a"/>
+
+    <text x="22" y="148" font-size="11" font-weight="600" fill="#9ca3af">სალათები</text>
+    <g transform="translate(22,158)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ცეზარის სალათი</text>
+      <text x="386" y="14" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">16.00₾</text>
+    </g>
+    <text x="22" y="196" font-size="11" font-weight="600" fill="#9ca3af">სენდვიჩები</text>
+    <g transform="translate(22,206)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ბურიტო</text>
+      <text x="386" y="14" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">19.00₾</text>
+    </g>
+  </g>
+
+  <!-- Card 5: #121 Elene Adeishvili -->
+  <g transform="translate(708,694)">
+    <rect width="430" height="240" rx="12" fill="#fffbeb" stroke="#fde68a"/>
+    <rect width="6" height="240" rx="3" fill="#f59e0b"/>
+    <g transform="translate(22,18)">
+      <rect width="148" height="30" rx="15" fill="#fef3c7" stroke="#fde68a"/>
+      <g transform="translate(12,8)" stroke="#b45309" stroke-width="1.6" fill="none">
+        <circle cx="7" cy="7" r="6"/>
+        <path d="M7 3 V7 L10 9" stroke-linecap="round"/>
+      </g>
+      <text x="36" y="20" font-size="12" font-weight="700" fill="#b45309">მოსამზადებელი</text>
+    </g>
+    <g transform="translate(184,28)" stroke="#9ca3af" stroke-width="1.4" fill="none">
+      <circle cx="6" cy="6" r="5"/>
+      <path d="M6 3 V6 L8 8" stroke-linecap="round"/>
+    </g>
+    <text x="198" y="38" font-size="12" font-weight="600" fill="#6b7280">01:14 PM</text>
+    <text x="408" y="40" font-size="20" font-weight="800" fill="#0f172a" text-anchor="end">35.00₾</text>
+
+    <text x="22" y="86" font-size="14" font-weight="700" fill="#9ca3af">#121</text>
+    <text x="60" y="86" font-size="16" font-weight="800" fill="#0f172a">Elene Adeishvili</text>
+    <text x="60" y="106" font-size="12" fill="#9ca3af">SmartSoft</text>
+    <text x="408" y="86" font-size="12" fill="#6b7280" text-anchor="end">2 items</text>
+
+    <line x1="22" y1="128" x2="408" y2="128" stroke="#fde68a"/>
+
+    <text x="22" y="148" font-size="11" font-weight="600" fill="#9ca3af">სენდვიჩები</text>
+    <g transform="translate(22,158)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ბურიტო</text>
+      <text x="386" y="14" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">19.00₾</text>
+    </g>
+    <text x="22" y="196" font-size="11" font-weight="600" fill="#9ca3af">სალათები</text>
+    <g transform="translate(22,206)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">ცეზარის სალათი</text>
+      <text x="386" y="14" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">16.00₾</text>
+    </g>
+  </g>
+
+  <!-- Card 6: #146 Mariam Nartkoshvili — peeking under chat panel -->
+  <g transform="translate(1158,694)">
+    <rect width="184" height="240" rx="12" fill="#fffbeb" stroke="#fde68a"/>
+    <rect width="6" height="240" rx="3" fill="#f59e0b"/>
+    <g transform="translate(22,18)">
+      <rect width="148" height="30" rx="15" fill="#fef3c7" stroke="#fde68a"/>
+      <g transform="translate(12,8)" stroke="#b45309" stroke-width="1.6" fill="none">
+        <circle cx="7" cy="7" r="6"/>
+        <path d="M7 3 V7 L10 9" stroke-linecap="round"/>
+      </g>
+      <text x="36" y="20" font-size="12" font-weight="700" fill="#b45309">მოსამზადებელი</text>
+    </g>
+    <g transform="translate(22,56)" stroke="#9ca3af" stroke-width="1.4" fill="none">
+      <circle cx="6" cy="6" r="5"/>
+      <path d="M6 3 V6 L8 8" stroke-linecap="round"/>
+    </g>
+    <text x="36" y="66" font-size="12" font-weight="600" fill="#6b7280">01:27 PM</text>
+    <text x="162" y="66" font-size="18" font-weight="800" fill="#0f172a" text-anchor="end">12.00₾</text>
+
+    <text x="22" y="106" font-size="13" font-weight="700" fill="#9ca3af">#146</text>
+    <text x="22" y="128" font-size="14" font-weight="800" fill="#0f172a">Mariam</text>
+    <text x="22" y="146" font-size="14" font-weight="800" fill="#0f172a">Nartkoshvili</text>
+    <text x="22" y="164" font-size="11" fill="#9ca3af">SmartSoft  ·  2 items</text>
+
+    <line x1="22" y1="184" x2="162" y2="184" stroke="#fde68a"/>
+
+    <g transform="translate(22,200)">
+      <rect width="18" height="20" rx="4" fill="#fef3c7"/>
+      <text x="9" y="14" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">1</text>
+      <text x="30" y="14" font-size="13" fill="#0f172a">წიწიბურა</text>
+      <text x="140" y="14" font-size="12" font-weight="700" fill="#0f172a" text-anchor="end">8.00₾</text>
+    </g>
+  </g>
+
+  <!-- ============ SUPPORT CHAT PANEL ============ -->
+  <g transform="translate(1280,650)">
+    <rect width="304" height="530" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+
+    <!-- Header -->
+    <rect width="304" height="58" rx="14" fill="#ffffff"/>
+    <rect y="44" width="304" height="14" fill="#ffffff"/>
+    <line x1="0" y1="58" x2="304" y2="58" stroke="#e5e7eb"/>
+    <g transform="translate(18,18)" stroke="#0f172a" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 6 a4 4 0 0 1 4 -4 H18 a4 4 0 0 1 4 4 V14 a4 4 0 0 1 -4 4 H8 L2 22 Z"/>
+    </g>
+    <text x="48" y="36" font-size="14" font-weight="700" fill="#0f172a">Support Chat</text>
+    <circle cx="148" cy="29" r="10" fill="#ef4444"/>
+    <text x="148" y="33" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+    <g transform="translate(276,22)" stroke="#6b7280" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="0" x2="12" y2="12"/>
+      <line x1="12" y1="0" x2="0" y2="12"/>
+    </g>
+
+    <!-- Tabs -->
+    <g transform="translate(18,76)">
+      <rect width="130" height="34" rx="8" fill="#f3f4f6"/>
+      <text x="65" y="22" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">Active (20)</text>
+      <text x="200" y="22" font-size="12" font-weight="600" fill="#9ca3af" text-anchor="middle">Closed (30)</text>
+    </g>
+
+    <!-- Chat card 1 -->
+    <g transform="translate(14,130)">
+      <rect width="276" height="118" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#0f172a">შეკვეთის პრობლემა</text>
+      <rect x="14" y="34" width="124" height="20" rx="4" fill="#fef3c7"/>
+      <text x="76" y="48" font-size="10" font-weight="700" fill="#92400e" text-anchor="middle">Waiting for Support</text>
+      <text x="146" y="48" font-size="11" fill="#9ca3af">Unknown</text>
+      <text x="14" y="76" font-size="12" font-weight="700" fill="#2563eb">Nika Shonia  ↗</text>
+      <text x="14" y="98" font-size="11" fill="#6b7280">გაუქმება თუ შეიძლება შეკვეთის</text>
+    </g>
+
+    <!-- Chat card 2 -->
+    <g transform="translate(14,258)">
+      <rect width="276" height="118" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#0f172a">გამოხმაურება</text>
+      <rect x="14" y="34" width="56" height="20" rx="4" fill="#dbeafe"/>
+      <text x="42" y="48" font-size="10" font-weight="700" fill="#2563eb" text-anchor="middle">Active</text>
+      <text x="78" y="48" font-size="11" fill="#9ca3af">Unknown</text>
+      <text x="14" y="76" font-size="12" font-weight="700" fill="#2563eb">Aleksandre Lobzhanidze  ↗</text>
+      <text x="14" y="98" font-size="11" fill="#6b7280">დააბრუნეთ :* :))</text>
+    </g>
+
+    <!-- Chat card 3 -->
+    <g transform="translate(14,386)">
+      <rect width="276" height="118" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#0f172a">გამოხმაურება</text>
+      <rect x="14" y="34" width="124" height="20" rx="4" fill="#fef3c7"/>
+      <text x="76" y="48" font-size="10" font-weight="700" fill="#92400e" text-anchor="middle">Waiting for Support</text>
+      <text x="146" y="48" font-size="11" fill="#9ca3af">Unknown</text>
+      <text x="14" y="76" font-size="12" font-weight="700" fill="#2563eb">Tornike Gumberidze  ↗</text>
+      <text x="14" y="98" font-size="11" fill="#6b7280">ან წინა მაინც :))</text>
+    </g>
+  </g>
+
+  <!-- Floating close-chat red button (top-right of chat panel area) -->
+  <circle cx="1574" cy="1170" r="20" fill="#ef4444"/>
+  <g transform="translate(1566,1162)" stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+    <line x1="0" y1="0" x2="16" y2="16"/>
+    <line x1="16" y1="0" x2="0" y2="16"/>
+  </g>
+</svg>

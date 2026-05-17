@@ -40,9 +40,9 @@ export function ProjectDetail({ project }: { project: Project }) {
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-16 overflow-hidden rounded-2xl border border-white/10"
+            className="mt-16 overflow-hidden rounded-2xl border border-white/10 relative"
             style={
-              project.kind === "mobile" && project.accent
+              (project.kind === "mobile" || project.framed) && project.accent
                 ? { background: `radial-gradient(circle at 50% 30%, ${project.accent}33, transparent 70%), #0f1010` }
                 : undefined
             }
@@ -60,6 +60,17 @@ export function ProjectDetail({ project }: { project: Project }) {
                     <PhoneFrame src={src} alt={`${meta.title} ${i + 1}`} className="h-full" />
                   </div>
                 ))}
+              </div>
+            ) : project.framed ? (
+              <div className="relative aspect-[16/9]">
+                {project.backdrop && (
+                  <img src={project.backdrop} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover" />
+                )}
+                <div className="absolute inset-0 flex items-center justify-center p-8 md:p-16">
+                  <div className="w-full max-w-[1100px] rounded-xl overflow-hidden shadow-[0_40px_80px_-20px_rgba(0,0,0,0.7)] border border-white/15 bg-white">
+                    <img src={project.cover} alt={meta.title} className="w-full block" />
+                  </div>
+                </div>
               </div>
             ) : (
               <img src={project.cover} alt={meta.title} className="w-full aspect-[16/9] object-cover" />
@@ -123,6 +134,29 @@ export function ProjectDetail({ project }: { project: Project }) {
               {project.gallery.map((src, i) => (
                 <Reveal key={src} delay={i * 0.08}>
                   <PhoneFrame src={src} alt={`${meta.title} ${i + 1}`} />
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        ) : project.framed ? (
+          <div
+            className="mt-24 rounded-2xl border border-white/10 p-8 md:p-16 relative overflow-hidden"
+            style={
+              project.accent
+                ? { background: `radial-gradient(circle at 50% 30%, ${project.accent}22, transparent 70%), #0f1010` }
+                : undefined
+            }
+          >
+            <div className="grid md:grid-cols-2 gap-8 md:gap-12 relative">
+              {project.gallery.map((src, i) => (
+                <Reveal key={src} delay={i * 0.08}>
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    transition={{ duration: 0.4 }}
+                    className="rounded-xl overflow-hidden shadow-[0_30px_60px_-20px_rgba(0,0,0,0.6)] border border-white/15 bg-white"
+                  >
+                    <img src={src} alt={`${meta.title} ${i + 1}`} className="w-full block" />
+                  </motion.div>
                 </Reveal>
               ))}
             </div>
