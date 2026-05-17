@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="g" cx="0.5" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#0e2d28"/>
+      <stop offset="0.55" stop-color="#08171a"/>
+      <stop offset="1" stop-color="#040a0c"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.35" r="0.45">
+      <stop offset="0" stop-color="#5dd0a6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5dd0a6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topfade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1200" fill="url(#g)"/>
+  <rect width="1600" height="1200" fill="url(#glow)"/>
+
+  <!-- Decorative subtle grid (architectural feel) -->
+  <g opacity="0.07" stroke="#a7f3d0" stroke-width="1" fill="none">
+    <path d="M0 200 H1600 M0 400 H1600 M0 600 H1600 M0 800 H1600 M0 1000 H1600"/>
+    <path d="M200 0 V1200 M400 0 V1200 M600 0 V1200 M800 0 V1200 M1000 0 V1200 M1200 0 V1200 M1400 0 V1200"/>
+  </g>
+
+  <!-- Drifting building / IoT motifs at low opacity -->
+  <g opacity="0.16">
+    <!-- house outline (top-left) -->
+    <g transform="translate(150,200)" fill="none" stroke="#86efac" stroke-width="3" stroke-linejoin="round">
+      <path d="M0 80 L80 10 L160 80 V170 H0 Z"/>
+      <path d="M60 170 V120 H100 V170"/>
+    </g>
+    <!-- thermometer (right) -->
+    <g transform="translate(1440,260)" fill="#86efac">
+      <rect x="-6" y="0" width="12" height="120" rx="5"/>
+      <circle cx="0" cy="135" r="18"/>
+    </g>
+    <!-- lightbulb (bottom-left) -->
+    <g transform="translate(200,920)" fill="none" stroke="#86efac" stroke-width="3" stroke-linecap="round">
+      <path d="M0 0 a30 30 0 1 1 36 0 l-4 18 h-28 z"/>
+      <path d="M6 26 h24 M9 36 h18"/>
+    </g>
+    <!-- wifi-style waves (bottom-right) -->
+    <g transform="translate(1380,940)" fill="none" stroke="#86efac" stroke-width="3" stroke-linecap="round">
+      <path d="M-40 0 a40 40 0 0 1 80 0"/>
+      <path d="M-26 14 a26 26 0 0 1 52 0"/>
+      <path d="M-12 28 a12 12 0 0 1 24 0"/>
+      <circle cx="0" cy="40" r="4" fill="#86efac"/>
+    </g>
+    <!-- gear (centre) -->
+    <g transform="translate(800,1030)" fill="#5dd0a6">
+      <circle cx="0" cy="0" r="20"/>
+      <g transform="rotate(0)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+      <g transform="rotate(45)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+      <g transform="rotate(90)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+      <g transform="rotate(135)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+      <g transform="rotate(180)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+      <g transform="rotate(225)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+      <g transform="rotate(270)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+      <g transform="rotate(315)"><rect x="-4" y="-34" width="8" height="14" rx="2"/></g>
+    </g>
+  </g>
+
+  <!-- Soft floating particles -->
+  <g fill="#5dd0a6" opacity="0.2">
+    <circle cx="320" cy="240" r="4"/>
+    <circle cx="500" cy="380" r="3"/>
+    <circle cx="280" cy="540" r="3"/>
+    <circle cx="1180" cy="180" r="4"/>
+    <circle cx="1340" cy="520" r="3"/>
+    <circle cx="640" cy="900" r="4"/>
+    <circle cx="1080" cy="980" r="3"/>
+    <circle cx="240" cy="780" r="3"/>
+  </g>
+
+  <rect width="1600" height="200" fill="url(#topfade)"/>
+</svg>

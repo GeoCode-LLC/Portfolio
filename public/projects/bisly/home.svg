@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -56 1600 1256" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif">
+  <!-- Browser chrome -->
+  <rect x="0" y="-56" width="1600" height="56" fill="#e5e7eb"/>
+  <circle cx="28" cy="-28" r="8" fill="#ef4444"/>
+  <circle cx="54" cy="-28" r="8" fill="#fbbf24"/>
+  <circle cx="80" cy="-28" r="8" fill="#22c55e"/>
+  <rect x="480" y="-42" width="640" height="28" rx="14" fill="#ffffff"/>
+  <g transform="translate(508,-32)" stroke="#6b7280" stroke-width="1.4" fill="none">
+    <path d="M2 6 V4 a3 3 0 0 1 6 0 V6 M0 6 H10 V12 H0 Z"/>
+  </g>
+  <text x="800" y="-23" font-size="13" fill="#6b7280" text-anchor="middle">bisly.com</text>
+  <line x1="0" y1="0" x2="1600" y2="0" stroke="#d1d5db"/>
+
+  <!-- Page bg -->
+  <rect width="1600" height="1200" fill="#ffffff"/>
+
+  <!-- ============ TOP NAV ============ -->
+  <rect x="0" y="0" width="1600" height="80" fill="#ffffff"/>
+  <line x1="0" y1="80" x2="1600" y2="80" stroke="#eef2f0"/>
+
+  <!-- Logo: rounded teal square with B mark -->
+  <g transform="translate(60,22)">
+    <rect width="40" height="40" rx="10" fill="#5dd0a6"/>
+    <path d="M14 10 H24 a6 6 0 0 1 0 12 H14 Z M14 18 H26 a6 6 0 0 1 0 12 H14 Z" fill="#ffffff"/>
+  </g>
+  <text x="116" y="42" font-size="22" font-weight="800" fill="#0f172a">Bisly</text>
+  <text x="116" y="62" font-size="10" font-weight="700" fill="#9ca3af" letter-spacing="2">SMART BUILDINGS</text>
+
+  <!-- Nav items -->
+  <text x="640" y="50" font-size="15" font-weight="600" fill="#0f172a">Solutions</text>
+  <path d="M716 44 l6 6 l6 -6" stroke="#0f172a" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="780" y="50" font-size="15" font-weight="600" fill="#0f172a">Products</text>
+  <path d="M858 44 l6 6 l6 -6" stroke="#0f172a" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="920" y="50" font-size="15" font-weight="600" fill="#0f172a">Pricing</text>
+  <text x="1000" y="50" font-size="15" font-weight="600" fill="#0f172a">About</text>
+  <text x="1080" y="50" font-size="15" font-weight="600" fill="#0f172a">Resources</text>
+
+  <!-- CTAs -->
+  <text x="1380" y="50" font-size="14" font-weight="600" fill="#0f172a">Sign in</text>
+  <rect x="1440" y="22" width="100" height="40" rx="20" fill="#0f172a"/>
+  <text x="1490" y="48" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Book demo</text>
+
+  <!-- ============ HERO ============ -->
+  <!-- Soft mint background panel -->
+  <defs>
+    <linearGradient id="heroBg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8f8f0"/>
+      <stop offset="1" stop-color="#f7fdfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="80" width="1600" height="640" fill="url(#heroBg)"/>
+
+  <!-- Decorative blurry orbs (approx with low-opacity circles) -->
+  <circle cx="220" cy="280" r="180" fill="#5dd0a6" opacity="0.18"/>
+  <circle cx="1380" cy="640" r="220" fill="#5dd0a6" opacity="0.12"/>
+
+  <!-- Hero text (left) -->
+  <text x="120" y="240" font-size="14" font-weight="700" fill="#0f8a5a" letter-spacing="3">SMART BUILDING PLATFORM</text>
+
+  <text x="120" y="320" font-size="62" font-weight="800" fill="#0f172a">Build smarter,</text>
+  <text x="120" y="392" font-size="62" font-weight="800" fill="#0f172a">manage easier</text>
+  <text x="120" y="464" font-size="62" font-weight="800" fill="#0f172a">with <tspan fill="#0f8a5a">Bisly</tspan>.</text>
+
+  <text x="120" y="528" font-size="18" fill="#475569">One platform for HVAC, lighting, access and energy —</text>
+  <text x="120" y="554" font-size="18" fill="#475569">from a single apartment to an entire portfolio.</text>
+
+  <!-- Hero CTAs -->
+  <rect x="120" y="600" width="180" height="56" rx="28" fill="#0f172a"/>
+  <text x="210" y="635" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Book a demo</text>
+
+  <rect x="316" y="600" width="180" height="56" rx="28" fill="none" stroke="#0f172a" stroke-width="2"/>
+  <text x="406" y="635" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">See platform</text>
+
+  <!-- Right side: stacked product preview (dashboard + tablet + phone hint) -->
+  <!-- Dashboard panel -->
+  <g transform="translate(820,160)">
+    <rect width="700" height="420" rx="18" fill="#0f172a"/>
+    <rect x="14" y="14" width="200" height="392" rx="10" fill="#1e293b"/>
+
+    <!-- sidebar header -->
+    <rect x="26" y="28" width="40" height="40" rx="10" fill="#5dd0a6"/>
+    <text x="80" y="55" font-size="13" font-weight="800" fill="#ffffff">Bisly</text>
+
+    <!-- sidebar items -->
+    <g font-size="11" font-weight="600" fill="#94a3b8">
+      <rect x="26" y="92" width="172" height="28" rx="6" fill="#334155"/>
+      <text x="44" y="111" fill="#ffffff">Overview</text>
+      <text x="44" y="151">Sites</text>
+      <text x="44" y="183">Building mgmt</text>
+      <text x="44" y="215">Energy</text>
+      <text x="44" y="247">Occupancy</text>
+      <text x="44" y="279">Alerts</text>
+      <text x="44" y="311">Operations</text>
+      <text x="44" y="343">Settings</text>
+    </g>
+
+    <!-- main area -->
+    <rect x="230" y="14" width="456" height="392" rx="10" fill="#ffffff"/>
+    <text x="248" y="46" font-size="14" font-weight="700" fill="#0f172a">Overview</text>
+    <text x="248" y="64" font-size="10" fill="#94a3b8">All sites · 12 buildings</text>
+
+    <!-- 4 stat cards -->
+    <g>
+      <rect x="248" y="82" width="100" height="68" rx="8" fill="#f0fdf4"/>
+      <text x="258" y="104" font-size="9" font-weight="700" fill="#16a34a">ENERGY USE</text>
+      <text x="258" y="132" font-size="18" font-weight="800" fill="#0f172a">432</text>
+      <text x="292" y="132" font-size="9" fill="#64748b">kWh</text>
+
+      <rect x="356" y="82" width="100" height="68" rx="8" fill="#eff6ff"/>
+      <text x="366" y="104" font-size="9" font-weight="700" fill="#2563eb">OCCUPANCY</text>
+      <text x="366" y="132" font-size="18" font-weight="800" fill="#0f172a">72</text>
+      <text x="394" y="132" font-size="9" fill="#64748b">%</text>
+
+      <rect x="464" y="82" width="100" height="68" rx="8" fill="#fff7ed"/>
+      <text x="474" y="104" font-size="9" font-weight="700" fill="#ea580c">TEMP AVG</text>
+      <text x="474" y="132" font-size="18" font-weight="800" fill="#0f172a">21.4</text>
+      <text x="510" y="132" font-size="9" fill="#64748b">°C</text>
+
+      <rect x="572" y="82" width="100" height="68" rx="8" fill="#fef2f2"/>
+      <text x="582" y="104" font-size="9" font-weight="700" fill="#dc2626">ALERTS</text>
+      <text x="582" y="132" font-size="18" font-weight="800" fill="#0f172a">3</text>
+    </g>
+
+    <!-- Chart card -->
+    <rect x="248" y="166" width="424" height="160" rx="10" fill="#f8fafc"/>
+    <text x="260" y="186" font-size="11" font-weight="700" fill="#0f172a">Consumption (last 24h)</text>
+    <text x="260" y="200" font-size="9" fill="#94a3b8">kWh per hour</text>
+
+    <!-- chart bars / line -->
+    <g stroke="#5dd0a6" stroke-width="2.6" fill="none">
+      <path d="M268 296 L296 274 L324 282 L352 250 L380 264 L408 240 L436 256 L464 220 L492 234 L520 210 L548 230 L576 196 L604 218 L632 200 L660 224"/>
+    </g>
+    <g fill="#5dd0a6" opacity="0.18">
+      <path d="M268 296 L296 274 L324 282 L352 250 L380 264 L408 240 L436 256 L464 220 L492 234 L520 210 L548 230 L576 196 L604 218 L632 200 L660 224 L660 314 L268 314 Z"/>
+    </g>
+    <line x1="260" y1="314" x2="664" y2="314" stroke="#e2e8f0"/>
+
+    <!-- Bottom row: device list + activity -->
+    <rect x="248" y="342" width="208" height="58" rx="8" fill="#f8fafc"/>
+    <text x="260" y="362" font-size="10" font-weight="700" fill="#0f172a">Devices online</text>
+    <text x="260" y="384" font-size="18" font-weight="800" fill="#0f172a">186 / 192</text>
+
+    <rect x="464" y="342" width="208" height="58" rx="8" fill="#f8fafc"/>
+    <text x="476" y="362" font-size="10" font-weight="700" fill="#0f172a">Open tasks</text>
+    <text x="476" y="384" font-size="18" font-weight="800" fill="#0f172a">4 <tspan font-size="11" font-weight="600" fill="#64748b">in maintenance</tspan></text>
+  </g>
+
+  <!-- Phone hint floating bottom-right -->
+  <g transform="translate(720,420)">
+    <rect width="170" height="320" rx="28" fill="#0f172a"/>
+    <rect x="6" y="6" width="158" height="308" rx="22" fill="#e8f8f0"/>
+    <text x="20" y="40" font-size="11" font-weight="700" fill="#0f172a">Summerhouse</text>
+    <text x="20" y="60" font-size="9" fill="#475569">-1° · 80% humidity</text>
+
+    <rect x="14" y="76" width="142" height="44" rx="10" fill="#ffffff"/>
+    <text x="24" y="92" font-size="8" font-weight="700" fill="#94a3b8">SCENARIOS</text>
+    <circle cx="32" cy="108" r="8" fill="#5dd0a6"/>
+    <text x="48" y="112" font-size="9" font-weight="700" fill="#0f172a">Home</text>
+    <text x="84" y="112" font-size="9" fill="#94a3b8">Away</text>
+    <text x="118" y="112" font-size="9" fill="#94a3b8">Sleep</text>
+
+    <rect x="14" y="130" width="66" height="60" rx="10" fill="#ffffff"/>
+    <text x="22" y="148" font-size="8" font-weight="700" fill="#94a3b8">LIGHTS</text>
+    <text x="22" y="170" font-size="11" font-weight="800" fill="#0f172a">Turn OFF</text>
+    <text x="22" y="182" font-size="9" fill="#475569">3 of 10 on</text>
+
+    <rect x="90" y="130" width="66" height="60" rx="10" fill="#ffffff"/>
+    <text x="98" y="148" font-size="8" font-weight="700" fill="#94a3b8">ACCESS</text>
+    <text x="98" y="170" font-size="11" font-weight="800" fill="#0f172a">Open</text>
+    <text x="98" y="182" font-size="9" fill="#475569">Gate</text>
+
+    <rect x="14" y="200" width="66" height="60" rx="10" fill="#ffffff"/>
+    <text x="22" y="218" font-size="8" font-weight="700" fill="#94a3b8">SAUNA</text>
+    <text x="22" y="240" font-size="11" font-weight="800" fill="#0f172a">40°</text>
+
+    <rect x="90" y="200" width="66" height="60" rx="10" fill="#ffffff"/>
+    <text x="98" y="218" font-size="8" font-weight="700" fill="#94a3b8">CLIMATE</text>
+    <text x="98" y="240" font-size="11" font-weight="800" fill="#0f172a">17 → 20°</text>
+  </g>
+
+  <!-- ============ FEATURES STRIP ============ -->
+  <text x="120" y="800" font-size="14" font-weight="700" fill="#0f8a5a" letter-spacing="3">EVERYTHING IN ONE PLATFORM</text>
+  <text x="120" y="852" font-size="36" font-weight="800" fill="#0f172a">Build smarter, manage easier.</text>
+
+  <!-- Five feature cards in a row -->
+  <g transform="translate(120,900)">
+    <!-- HVAC -->
+    <rect x="0" y="0" width="260" height="190" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+    <g transform="translate(24,28)" stroke="#5dd0a6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 26 L24 6 L48 26 V52 H0 Z"/>
+      <path d="M14 52 V36 H34 V52"/>
+      <path d="M58 12 q4 6 0 12 q-4 6 0 12"/>
+      <path d="M70 4 q4 8 0 16 q-4 8 0 16"/>
+    </g>
+    <text x="24" y="142" font-size="20" font-weight="800" fill="#0f172a">HVAC</text>
+    <text x="24" y="164" font-size="12" fill="#64748b">Climate control with real-time</text>
+    <text x="24" y="180" font-size="12" fill="#64748b">temperature &amp; CO₂ sensing.</text>
+
+    <!-- Lighting -->
+    <rect x="280" y="0" width="260" height="190" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+    <g transform="translate(304,28)" stroke="#5dd0a6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 26 a22 22 0 1 1 32 0 l-2 16 h-28 z"/>
+      <path d="M4 50 h24 M8 60 h16"/>
+      <path d="M16 -10 v8 M2 -2 l4 4 M30 -2 l-4 4"/>
+    </g>
+    <text x="304" y="142" font-size="20" font-weight="800" fill="#0f172a">Lighting</text>
+    <text x="304" y="164" font-size="12" fill="#64748b">Schedules, scenes and</text>
+    <text x="304" y="180" font-size="12" fill="#64748b">presence-based automation.</text>
+
+    <!-- Access control -->
+    <rect x="560" y="0" width="260" height="190" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+    <g transform="translate(584,28)" stroke="#5dd0a6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="14" width="46" height="34" rx="6"/>
+      <path d="M10 14 v-6 a13 13 0 0 1 26 0 v6"/>
+      <circle cx="23" cy="31" r="4" fill="#5dd0a6"/>
+    </g>
+    <text x="584" y="142" font-size="20" font-weight="800" fill="#0f172a">Access control</text>
+    <text x="584" y="164" font-size="12" fill="#64748b">Mobile keys, intercoms and</text>
+    <text x="584" y="180" font-size="12" fill="#64748b">role-based permissions.</text>
+
+    <!-- Consumption data -->
+    <rect x="840" y="0" width="260" height="190" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+    <g transform="translate(864,28)" stroke="#5dd0a6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 48 L0 12 H50 V48 Z"/>
+      <path d="M8 40 V28 M20 40 V20 M32 40 V32 M44 40 V16"/>
+    </g>
+    <text x="864" y="142" font-size="20" font-weight="800" fill="#0f172a">Consumption</text>
+    <text x="864" y="164" font-size="12" fill="#64748b">Energy and water analytics</text>
+    <text x="864" y="180" font-size="12" fill="#64748b">across the entire portfolio.</text>
+
+    <!-- Remote readings -->
+    <rect x="1120" y="0" width="260" height="190" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+    <g transform="translate(1144,28)" stroke="#5dd0a6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="6" width="40" height="48" rx="6"/>
+      <path d="M8 18 h24 M8 28 h24 M8 38 h14"/>
+      <path d="M48 18 q8 6 0 12"/>
+      <path d="M56 12 q12 12 0 24"/>
+    </g>
+    <text x="1144" y="142" font-size="20" font-weight="800" fill="#0f172a">Remote readings</text>
+    <text x="1144" y="164" font-size="12" fill="#64748b">Automated meter readings and</text>
+    <text x="1144" y="180" font-size="12" fill="#64748b">tenant-level billing exports.</text>
+  </g>
+
+  <!-- ============ FOOTER STRIP ============ -->
+  <rect x="0" y="1120" width="1600" height="80" fill="#0f172a"/>
+  <g transform="translate(60,1140)">
+    <rect width="32" height="32" rx="8" fill="#5dd0a6"/>
+    <path d="M11 8 H19 a5 5 0 0 1 0 10 H11 Z M11 14 H21 a5 5 0 0 1 0 10 H11 Z" fill="#0f172a"/>
+  </g>
+  <text x="104" y="1162" font-size="14" font-weight="800" fill="#ffffff">Bisly</text>
+  <text x="104" y="1180" font-size="10" fill="#94a3b8">© 2024 — Smart buildings, simpler.</text>
+  <text x="1480" y="1170" font-size="12" fill="#94a3b8">bisly.com</text>
+</svg>

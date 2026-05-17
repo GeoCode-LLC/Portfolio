@@ -32,6 +32,7 @@ export const projects: Project[] = [
     client: "Copolo",
     role: "Mobile app · Engineering",
     stack: ["React Native", "React.js", "Redux Toolkit Query", "TypeScript"],
+    url: "https://www.copolo.com/",
     en: {
       title: "Copolo",
       category: "Travel · Mobile app",
@@ -120,6 +121,42 @@ export const projects: Project[] = [
       description: [
         "Cafeter.io არის პროდუქტის ვებ მხარე — მრავალენოვანი მარკეტინგული საიტი და ავტორიზებული პორტალები კუჭინებისთვის, დამსაქმებლებისთვის და თანამშრომლებისთვის: მენიუ, ბიუჯეტი, შეკვეთები, ინვოისები და ანალიტიკა.",
         "ავაშენეთ Next.js-ზე ინგლისური, ქართული და რუსული ენებით, ჩავრთეთ Stripe გადახდის ავტორიზაცია/ჩამოჭრა და მობილური აპის იგივე მონაცემთა მოდელი დავაკავშირეთ პროვაიდერის დაშბორდს.",
+      ],
+    },
+  },
+  {
+    slug: "bisly",
+    kind: "web",
+    framed: true,
+    accent: "#5dd0a6",
+    cover: "/projects/bisly/home.svg",
+    backdrop: "/projects/bisly/backdrop.svg",
+    gallery: [
+      "/projects/bisly/home.svg",
+      "/projects/bisly/dashboard.svg",
+      "/projects/bisly/features.svg",
+    ],
+    year: "2025",
+    client: "Bisly",
+    role: "Web platform · Engineering",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "IoT integrations"],
+    url: "https://www.bisly.com/",
+    en: {
+      title: "Bisly",
+      category: "Smart buildings · Web platform",
+      summary: "A smart-building operating system: HVAC, lighting, access and energy management in one connected platform.",
+      description: [
+        "Bisly is a smart-building platform that unifies HVAC, lighting, access control, consumption data and remote metering across entire portfolios. We engineered the marketing site and parts of the building-management surface that operators use day to day.",
+        "Built on Next.js with a typed API layer, the platform streams live device data into a single dashboard so property managers can monitor energy, occupancy and environmental KPIs without juggling vendor tools.",
+      ],
+    },
+    ka: {
+      title: "Bisly",
+      category: "ჭკვიანი შენობები · ვებ პლატფორმა",
+      summary: "ჭკვიანი შენობების მართვის სისტემა: HVAC, განათება, წვდომის კონტროლი და ენერგიის მონიტორინგი ერთ პლატფორმაში.",
+      description: [
+        "Bisly არის ჭკვიანი შენობების პლატფორმა, რომელიც აერთიანებს HVAC-ს, განათებას, წვდომის კონტროლს, მოხმარების მონაცემებსა და დისტანციურ აღრიცხვას მთელი პორტფელისთვის. ჩვენ ავაშენეთ მარკეტინგული საიტი და მმართველი პორტალის ნაწილი, რომელსაც ოპერატორები ყოველდღიურად იყენებენ.",
+        "პლატფორმა აშენებულია Next.js-ზე ტიპირებული API ფენით და რეალურ დროში აჩვენებს მოწყობილობების მონაცემებს ერთ დაშბორდში — ენერგია, დატვირთვა და გარემო ერთ ადგილზე, ცალკეული ვენდორის აპლიკაციების გარეშე.",
       ],
     },
   },

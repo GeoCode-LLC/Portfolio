@@ -17,7 +17,7 @@ export const dict: Record<Lang, DictShape> = {
       eyebrow: "Software studio",
       title1: "We build",
       title2: "digital products",
-      title3: "that move markets.",
+      title3: "that grow businesses.",
       sub: "GeoCode is a software agency crafting fast, elegant web and mobile applications for booking, fintech, e-commerce and reservation platforms.",
       cta: "Start a project",
       ctaAlt: "See our work",
@@ -41,6 +41,7 @@ export const dict: Record<Lang, DictShape> = {
       items: [
         { t: "Cafeterio", c: "Catering · Mobile app", tag: "2025" },
         { t: "Cafeter.io", c: "Catering · Web platform", tag: "2025" },
+        { t: "Bisly", c: "Smart buildings · Web platform", tag: "2025" },
         { t: "CreditService +", c: "Microfinance · Web platform", tag: "2024" },
       ],
     },
@@ -71,7 +72,7 @@ export const dict: Record<Lang, DictShape> = {
       eyebrow: "პროგრამული სტუდია",
       title1: "ჩვენ ვქმნით",
       title2: "ციფრულ პროდუქტებს,",
-      title3: "რომლებიც ცვლის ბაზრებს.",
+      title3: "რომლებიც ცვლის ბიზნესებს.",
       sub: "GeoCode არის სააგენტო, რომელიც ქმნის სწრაფ და ელეგანტურ ვებ და მობილურ აპლიკაციებს ჯავშნისთვის, ფინტექის, ე-კომერციისა და რეზერვაციის პლატფორმებისთვის.",
       cta: "დაიწყე პროექტი",
       ctaAlt: "ნახე ნამუშევრები",
@@ -95,6 +96,7 @@ export const dict: Record<Lang, DictShape> = {
       items: [
         { t: "Cafeterio", c: "კეთერინგი · მობილური აპი", tag: "2025" },
         { t: "Cafeter.io", c: "კეთერინგი · ვებ პლატფორმა", tag: "2025" },
+        { t: "Bisly", c: "ჭკვიანი შენობები · ვებ პლატფორმა", tag: "2025" },
         { t: "კრედიტსერვისი +", c: "მიკროსაფინანსო · ვებ პლატფორმა", tag: "2024" },
       ],
     },
