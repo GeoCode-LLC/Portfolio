@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#6fb6e2"/>
+      <stop offset="0.55" stop-color="#a9d3ea"/>
+      <stop offset="1" stop-color="#dde9f0"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cfd9e0"/>
+    </linearGradient>
+    <linearGradient id="rockDark" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#4f5a5c"/>
+      <stop offset="1" stop-color="#2a2f33"/>
+    </linearGradient>
+    <linearGradient id="rockMid" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#7a7e72"/>
+      <stop offset="1" stop-color="#4a4d44"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#8a9560"/>
+      <stop offset="1" stop-color="#5d6a3b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+
+  <!-- Distant clouds -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="200" cy="160" rx="110" ry="22"/>
+    <ellipse cx="260" cy="140" rx="80" ry="18"/>
+    <ellipse cx="1180" cy="120" rx="140" ry="26"/>
+    <ellipse cx="1260" cy="100" rx="90" ry="20"/>
+    <ellipse cx="1480" cy="200" rx="100" ry="20"/>
+  </g>
+
+  <!-- Far ridge -->
+  <path d="M0 540 L160 480 L280 520 L420 440 L560 500 L720 460 L880 520 L1040 470 L1200 510 L1360 460 L1500 500 L1600 480 L1600 1000 L0 1000 Z"
+        fill="#7090a8" opacity="0.55"/>
+
+  <!-- Main snowy peak -->
+  <path d="M540 720 L780 220 L880 360 L960 280 L1080 720 Z" fill="url(#rockDark)"/>
+  <!-- Snow caps on main peak -->
+  <path d="M780 220 L820 290 L760 320 L740 360 L710 340 L700 380 L680 360 L660 410 L640 380 L620 430 L600 420 L580 470 L560 460 L540 500 L540 720 L600 720 L640 600 L700 560 L740 480 L780 420 L800 360 L820 320 Z" fill="url(#snow)"/>
+  <path d="M880 360 L900 410 L880 440 L860 420 L840 470 L820 460 L800 500 L780 490 L760 540 L740 530 L720 580 L700 570 L680 620 L660 610 L640 660 L620 650 L600 700 L600 720 L1080 720 L1080 460 L1040 420 L1000 380 L960 340 L920 320 Z" fill="url(#rockMid)" opacity="0.7"/>
+  <path d="M880 360 L910 430 L940 380 L960 280 L990 360 L1000 320 L1020 400 L1040 360 L1060 420 L1080 380 L1080 460 Z" fill="url(#snow)"/>
+
+  <!-- Secondary peak left -->
+  <path d="M280 720 L460 380 L580 540 L640 720 Z" fill="url(#rockMid)"/>
+  <path d="M460 380 L490 440 L460 470 L440 510 L420 500 L400 540 L380 530 L360 570 L340 560 L320 600 L300 590 L290 620 L280 720 L380 720 L420 660 L460 600 L490 540 L500 480 Z" fill="url(#snow)" opacity="0.9"/>
+
+  <!-- Secondary peak right -->
+  <path d="M1080 720 L1200 460 L1320 600 L1420 720 Z" fill="url(#rockMid)" opacity="0.85"/>
+  <path d="M1200 460 L1220 510 L1200 540 L1180 580 L1160 570 L1150 620 L1130 610 L1115 640 L1100 720 L1180 720 L1210 660 L1240 600 L1245 540 Z" fill="url(#snow)" opacity="0.85"/>
+
+  <!-- Foreground hills -->
+  <path d="M0 720 Q200 660 400 720 T800 720 T1200 720 T1600 720 L1600 1000 L0 1000 Z" fill="url(#grass)"/>
+  <path d="M0 780 Q300 720 600 790 T1200 800 T1600 790 L1600 1000 L0 1000 Z" fill="#6b7843" opacity="0.85"/>
+
+  <!-- Winding road -->
+  <path d="M40 980 Q300 880 500 930 T900 880 T1300 860 T1600 820"
+        stroke="#d9d2bd" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M40 980 Q300 880 500 930 T900 880 T1300 860 T1600 820"
+        stroke="#ffffff" stroke-width="2" stroke-dasharray="14 18" fill="none" opacity="0.5"/>
+
+  <!-- Foreground grass tufts -->
+  <g fill="#4a5a2a" opacity="0.8">
+    <path d="M100 940 q6 -20 12 0 z"/>
+    <path d="M180 970 q8 -26 16 0 z"/>
+    <path d="M340 960 q6 -22 12 0 z"/>
+    <path d="M1380 940 q8 -22 16 0 z"/>
+    <path d="M1480 970 q6 -20 12 0 z"/>
+  </g>
+</svg>

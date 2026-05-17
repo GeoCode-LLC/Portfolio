@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" font-family="-apple-system, system-ui, sans-serif">
+  <rect width="390" height="844" fill="#ffffff"/>
+
+  <text x="32" y="38" font-size="15" font-weight="600" fill="#000">9:41</text>
+
+  <!-- Search summary -->
+  <rect x="20" y="80" width="350" height="68" rx="14" fill="#ffffff" stroke="#cfd6dc"/>
+  <path d="M40 117 l-8 -8 8 -8" stroke="#1aa8a8" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <text x="60" y="108" font-size="16" font-weight="700" fill="#0e1b2c">9a Ana Politkovskaia St, T'bilisi 0186, Georgia</text>
+  <text x="60" y="130" font-size="13" fill="#6b7480">Jan 8-9</text>
+
+  <!-- Filter / Sort -->
+  <g transform="translate(0,170)">
+    <text x="80" y="22" font-size="15" font-weight="600" fill="#1aa8a8">Filter</text>
+    <path d="M58 14 a8 8 0 1 1 0 0.01 M62 22 v6 M66 22 v6" stroke="#1aa8a8" stroke-width="1.6" fill="none"/>
+    <text x="262" y="22" font-size="15" font-weight="600" fill="#1aa8a8">Sort</text>
+    <path d="M240 8 v18 M236 12 l4 -4 l4 4 M250 8 v18 M246 22 l4 4 l4 -4" stroke="#1aa8a8" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Results -->
+  <rect x="0" y="210" width="390" height="44" fill="#eef1f4"/>
+  <text x="195" y="238" font-size="15" font-weight="700" fill="#0e1b2c" text-anchor="middle">100 results found</text>
+
+  <!-- Card 1 -->
+  <g transform="translate(20,270)">
+    <rect width="350" height="270" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <!-- Image -->
+    <clipPath id="img1"><rect width="350" height="170" rx="14"/></clipPath>
+    <g clip-path="url(#img1)">
+      <rect width="350" height="170" fill="#6db6c9"/>
+      <path d="M0 110 L80 60 L130 90 L200 40 L260 70 L350 30 L350 170 L0 170 Z" fill="#3f5e6b"/>
+      <path d="M0 130 L60 100 L130 130 L210 90 L290 120 L350 100 L350 170 L0 170 Z" fill="#4f7c8c"/>
+      <circle cx="60" cy="40" r="14" fill="#fff"/>
+      <path d="M50 50 q10 -8 20 0" stroke="#fff" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- heart -->
+    <circle cx="316" cy="26" r="16" fill="#ffffff"/>
+    <path d="M316 32 q-7 -5 -7 -10 a4 4 0 0 1 7 -2 a4 4 0 0 1 7 2 q0 5 -7 10 z" fill="none" stroke="#0e1b2c" stroke-width="1.6"/>
+
+    <text x="20" y="200" font-size="17" font-weight="700" fill="#0e1b2c">Tbilisi-Kazbegi Shared Transfer</text>
+
+    <circle cx="28" cy="222" r="6" fill="none" stroke="#1aa8a8" stroke-width="1.6"/>
+    <circle cx="28" cy="220" r="2" fill="#1aa8a8"/>
+    <text x="46" y="226" font-size="13" fill="#0e1b2c">Tbilisi</text>
+
+    <circle cx="28" cy="244" r="6" fill="none" stroke="#1aa8a8" stroke-width="1.6"/>
+    <path d="M28 240 v6 l4 2" stroke="#1aa8a8" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <text x="46" y="250" font-size="13" fill="#0e1b2c">3 hours</text>
+
+    <text x="245" y="252" font-size="13" fill="#0e1b2c">From</text>
+    <text x="282" y="254" font-size="22" font-weight="800" fill="#0e1b2c">$34</text>
+    <text x="328" y="254" font-size="11" font-weight="700" fill="#0e1b2c">PP</text>
+  </g>
+  <text x="40" y="569" font-size="11" font-weight="700" fill="#e07a1a">BUS SERVICES</text>
+
+  <!-- Card 2 (peek) -->
+  <g transform="translate(20,585)">
+    <rect width="350" height="240" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <clipPath id="img2"><rect width="350" height="170" rx="14"/></clipPath>
+    <g clip-path="url(#img2)">
+      <defs>
+        <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0" stop-color="#f5b27a"/>
+          <stop offset="1" stop-color="#e07a4a"/>
+        </linearGradient>
+      </defs>
+      <rect width="350" height="170" fill="url(#sky)"/>
+      <!-- pillars -->
+      <rect x="40" y="40" width="32" height="130" fill="#2a2218"/>
+      <rect x="100" y="20" width="32" height="150" fill="#2a2218"/>
+      <rect x="160" y="20" width="32" height="150" fill="#2a2218"/>
+      <rect x="220" y="20" width="32" height="150" fill="#2a2218"/>
+      <rect x="280" y="40" width="32" height="130" fill="#2a2218"/>
+      <rect x="20" y="14" width="312" height="14" fill="#2a2218"/>
+      <!-- figure in red -->
+      <path d="M150 110 q14 -4 24 0 l-2 60 l-20 0 z" fill="#c92020"/>
+      <circle cx="162" cy="100" r="8" fill="#f4d4b3"/>
+      <ellipse cx="162" cy="94" rx="11" ry="4" fill="#e8c397"/>
+    </g>
+    <!-- heart -->
+    <circle cx="316" cy="26" r="16" fill="#ffffff"/>
+    <path d="M316 32 q-7 -5 -7 -10 a4 4 0 0 1 7 -2 a4 4 0 0 1 7 2 q0 5 -7 10 z" fill="none" stroke="#0e1b2c" stroke-width="1.6"/>
+
+    <text x="20" y="200" font-size="15" font-weight="700" fill="#0e1b2c">Tbilisi:Mtskheta,Jvari,Bazaar,wine</text>
+    <text x="20" y="220" font-size="15" font-weight="700" fill="#0e1b2c">tasting,Chronicles of Georgia</text>
+  </g>
+</svg>
